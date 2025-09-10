@@ -1,3 +1,5 @@
+#logic
+
 
 2 Online multiple choice tests - 20% total
 - Wed 8 Oct
@@ -18,6 +20,8 @@ Statements
 - AKA propositions
 
 [[Logical Connectives]]
+
+[[Truth Tables]]
 
 Logical Constants:
 Bold T/F are always True/False - in handwriting, theyre underlined
