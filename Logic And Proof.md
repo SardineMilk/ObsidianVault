@@ -29,3 +29,8 @@ Bold T/F are always True/False - in handwriting, theyre underlined
 **F**
 
 PL is the logic of elementary decision making
+
+Semantics is what languages mean (elaborate later)
+
+**Resources**
+- Truth Table Builder

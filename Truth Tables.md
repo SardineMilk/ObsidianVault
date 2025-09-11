@@ -7,6 +7,13 @@ Third input - 4 (TTTTFFFF)
 And so on, doubling length each input.
 This guarantees a correct and rapidly constructed table
 
+
+| A   | $\neg$A |
+| --- | ------- |
+| T   | F       |
+| F   | T       |
+
+
 | A   | B   | A $\land$ B |
 | --- | --- | ----------- |
 | F   | F   | F           |
