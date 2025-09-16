@@ -11,4 +11,19 @@ Labs
 - Groups of 5
 - Each submit a report at the end of lab
 
+Designing spaces for human communication and interaction (Winograd)
 
+Different terms specify different aspects of what is being designed
+- User Interface design
+- Software design
+- User-centred design
+- Product design
+- Web design
+- Experience design
+
+Comparison 
+- like architects and engineers
+- cannot happen in a vacuum
+
+Interdisciplinary field
+- this course leans towards [[Human-Computer Interaction]] (HCI)

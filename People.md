@@ -12,6 +12,11 @@
 - t.berg@hw.ac.uk
 - Office - by appointment 
 
+[[Software Development]]
+- Mehran Shargi
+- m.shargi@hw.ac.uk
+- 
+
 Student Advisor (SA)
 - Francis ...
 
