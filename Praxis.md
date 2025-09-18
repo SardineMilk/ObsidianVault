@@ -23,6 +23,9 @@ Pass 1/2, 3/4 are the ones that matter for final grade
 
 Coursework 1: individual quiz (A) + group report on peer assessment (B). Worth 20 marks
 - Week 2 - 5
+- Report writing quiz individually
+- Group work to assess others draft reports. Group to submit 1 page report
+- 10 marks each
 
 Coursework 2: Individual report worth 40 marks
 - Week 1 - 8
@@ -32,3 +35,5 @@ Coursework 2: Individual report worth 40 marks
 Presentation: group presentations worth 40 marks
 - Week 7 - 11/12
 - Recorded + PowerPoint slides
+
+The wisdom of geese

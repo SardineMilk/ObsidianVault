@@ -27,3 +27,9 @@ Comparison
 
 Interdisciplinary field
 - this course leans towards [[Human-Computer Interaction]] (HCI)
+
+Desire paths
+- exist? where was he going with this
+- humans will disobey design if it is more convenient
+
+# End Goal = Get Money

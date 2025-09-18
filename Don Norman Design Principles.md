@@ -1,0 +1,27 @@
+#interactiondesign 
+
+- Visibility
+	- use should be obvious from first glance
+	- google sign in page
+- Feedback
+	- user should get feedback to show actions are successful
+	- loading screen
+- Affordance
+	- link between how things look and how they're used
+	- teapot - handle, spout
+	- scissors - handle, blades
+- Mapping
+	- controls resemble effect
+	- vertical scroll bar shows where you are
+	- volume bar
+- Constraints
+	- restrict wrong choices
+	- prevents user being overwhelmed
+	- different ports look different
+	- online forms limit fields to required info
+- Consistency
+	- people learn and manage better when they recognise patterns
+	- toolbars for office tools
+		- file edit view window help
+	- click logo on website for home page
+	- both consistent within the company and the wider design space

@@ -2,7 +2,6 @@
 
 You can construct all logical connectives from Not + (And/Or)
 
-
 | English | Symbol     | Name                  |
 | ------- | ---------- | --------------------- |
 | not     | $\neg$     | negation              |
@@ -11,7 +10,23 @@ You can construct all logical connectives from Not + (And/Or)
 | xor     | $\oplus$   | exclusive disjunction |
 | iff     | $\iff$     | biconditional         |
 | implies | $\implies$ | conditional           |
+| true    | $\top$     | tautology             |
+| false   | $\bot$     | contradiction         |
 [[Logic-book.pdf#page=19&selection=69,53,111,14|Logic-book, page 19]]
+
+
+**Hierarchy of Connectives**
+When used in a propositional statement, the following hierarchy can be used to limit brackets:
+> ¬, ∧, ∨, →, ↔
+
+Not, And, Or, Implies, Iff (with left being used first)
+[[Logic-book.pdf#page=22&selection=229,0,241,1|Logic-book, page 22]]
+This is similar to BODMAS in arithmetic 
+
+
+Inputs: 
+- 1 = unary connective
+- 2 = binary connective
 
 
 Logical Connectives
@@ -34,15 +49,6 @@ This statement will be false if I have a birthday party not on my birthday.
 This statement will be false if it is my birthday, and I don't have a birthday party.
  
 To define these logical connectives, [[Truth Tables]] can be used
-
-
-**Hierarchy of Connectives**
-When used in a propositional statement, the following hierarchy can be used to limit brackets:
-> ¬, ∧, ∨, →, ↔
-
-Not, And, Or, Implies, Iff (with left being used first)
-[[Logic-book.pdf#page=22&selection=229,0,241,1|Logic-book, page 22]]
-This is similar to BODMAS in arithmetic 
 
 
 **Example 1.1.3**
@@ -114,3 +120,25 @@ $\neg$p $\implies$ $\neg$ q
 | F   | T   | F   | T            | T            | F          | T                                   | F                                                        | T   |
 | F   | F   | T   | T            | F            | T          | F                                   | F                                                        | T   |
 | F   | F   | F   | T            | T            | F          | T                                   | F                                                        | T   |
+
+
+Example: p $\implies$ $\bot$
+
+| p   | $\bot$ | p $\implies$ $\bot$ |
+| --- | ------ | ------------------- |
+| T   | F      | F                   |
+| F   | F      | T                   |
+
+Example: A= ((x $\implies$ z) $\land$ (y $\implies$ z)) $\implies$ ((x $\lor$ y) $\implies$ z)
+
+| x   | y   | z   | (x $\implies$ z) | (y $\implies$ z) | ((x $\implies$ z) $\land$ (y $\implies$ z)) | (x $\lor$ y) | ((x $\lor$ y) $\implies$ z) | A   |
+| --- | --- | --- | ---------------- | ---------------- | ------------------------------------------- | ------------ | --------------------------- | --- |
+| T   | T   | T   | T                | T                | T                                           | T            | T                           | T   |
+| T   | T   | F   | F                | F                | F                                           | T            | F                           | T   |
+| T   | F   | T   | T                | T                | T                                           | T            | T                           | T   |
+| T   | F   | F   | F                | T                | F                                           | T            | F                           | T   |
+| F   | T   | T   | T                | T                | T                                           | T            | T                           | T   |
+| F   | T   | F   | T                | F                | F                                           | F            | T                           | T   |
+| F   | F   | T   | T                | T                | T                                           | T            | T                           | T   |
+| F   | F   | F   | T                | T                | T                                           | F            | T                           | T   |
+It is a Tautology ($\top$)

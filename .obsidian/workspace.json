@@ -4,34 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "be03406a7896700c",
+        "id": "1480573da51fa208",
         "type": "tabs",
         "children": [
           {
-            "id": "5110aa5a1d43f230",
+            "id": "d64cd195cbefbc0c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction To Interaction Design.md",
+                "file": "Logic And Proof.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction To Interaction Design"
+              "title": "Logic And Proof"
             }
           },
           {
-            "id": "b7ebefbf6d3dbbd5",
+            "id": "c3bef8a89c220d52",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Trees.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Trees"
+            }
+          },
+          {
+            "id": "16c9daa8311c4f52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Propositional Logic.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Propositional Logic"
+            }
+          },
+          {
+            "id": "63c0c00d83c38de2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Logical Equivilence.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Logical Equivilence"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -174,24 +207,37 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "5110aa5a1d43f230",
+  "active": "63c0c00d83c38de2",
   "lastOpenFiles": [
-    "Introduction To Interaction Design.md",
-    "Software Development.md",
-    "Untitled.md",
-    "People.md",
-    "Books/Interaction-Design-Book.pdf",
-    "Books/interaction-design-beyond-human-computer-interaction_compress.pdf",
-    "Truth Tables.md",
+    "Interaction Design - Week 2 Lab.md",
+    "Logical Equivilence.md",
+    "Trees.md",
     "Propositional Logic.md",
-    "Logical Connectives.md",
     "Logic And Proof.md",
-    "Atomic Statements.md",
-    "Books/Logic-book.pdf",
+    "Don Norman Design Principles.md",
+    "People.md",
+    "Academic Writing.md",
     "Praxis.md",
+    "Praxis Coursework 2.md",
+    "Books/Logic-book.pdf",
+    "Atomic Statements.md",
+    "Well-Formed Formulae.md",
+    "Excalidraw/logic tree example.md",
+    "Logical Connectives.md",
+    "Truth Tables.md",
+    "Pasted image 20250916144305.png",
+    "Pasted image 20250916143549.png",
+    "Excalidraw",
+    "Books/Interaction-Design-Book.pdf",
+    "Introduction To Interaction Design.md",
+    "Understanding Users.md",
+    "Human-Computer Interaction.md",
+    "Software Development.md",
+    "Books/interaction-design-beyond-human-computer-interaction_compress.pdf",
     "Books",
     "Statements.md",
     "atomic statements.md",
