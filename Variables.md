@@ -16,6 +16,8 @@ Primitive types
 
 Object types
 - String
+	- this means you can call methods of the string class
+		- int stringLength = myString.length();
 
 Casting
 - Change type of variable
