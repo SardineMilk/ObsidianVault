@@ -1,6 +1,5 @@
  #softwaredevelopment 
 
-TESTING PUSH
 Use camelCase for variable names
 Use ALL_CAPS for constants
 Use PascalCase for Classes
