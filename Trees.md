@@ -11,6 +11,7 @@ Parse - show the grammatical structure of
 
 Don't have brackets
 Close to being circuits
+- Used for circuit design in this course
 Not used to replace truth tables
 
 Each node has a logical symbol in it

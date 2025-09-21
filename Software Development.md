@@ -17,6 +17,7 @@ Weeks 7-11:
 All lectures recorded
 Friday 14:00 - 16:00 EM252 (2nd Floor)
 
+**Resources**
 Java in 2 semesters
 Java: A beginners Guide
 Objects First with Java
@@ -28,3 +29,13 @@ CodeAcademy
 CodingBat
 
 linkedin/learning
+
+Do CodeRunner style questions
+- Same as exam style
+
+**Week 2 Lab**
+3% of grade
+mini programming tasks
+Submit code to GitLab, past GitLab link to Canvas
+Readability is important
+Descriptive message

@@ -113,3 +113,12 @@ $\neg (p \land q) \lor r$
 $(p \land q) \implies r$
 
 
+**Example:** $\neg (((p \implies q) \implies p) \implies p)$
+
+| p   | q   | $(p \implies q)$ | $\implies p$ | $\implies p$ | $\neg$ |
+| --- | --- | ---------------- | ------------ | ------------ | ------ |
+| T   | T   | T                | T            | T            | F      |
+| T   | F   | F                | T            | T            | F      |
+| F   | T   | T                | F            | T            | F      |
+| F   | F   | T                | F            | T            | F      |
+It is a contradiction
