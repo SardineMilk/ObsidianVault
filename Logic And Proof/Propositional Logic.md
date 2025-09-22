@@ -1,4 +1,4 @@
-#logic 
+
 
 Propositional Logic (PL) is a formal language. It is composed of [[Atomic Statements]], linked together by [[Logical Connectives]] (aka Propositional Connectives) into [[Compound Statements]].
 

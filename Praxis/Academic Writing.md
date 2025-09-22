@@ -1,4 +1,4 @@
-#praxis 
+
 
 "Academic writing and publishing is like a very slow conversation" - (Berg, 2025)
 

@@ -1,12 +1,13 @@
-#praxis 
+#meta 
 
 Scientific articles: writing and analysing
-How to write an academic report
+How to write an academic report 
 Academic Integrity and how to reference and cite
 How to present your work
 Careers and your professional persona online
 Finding academic materials
-Study skills and wellbeing
+Study skills and well-being
+[[Academic Writing]]
 
 You will be:
 - Performing research

@@ -1,4 +1,4 @@
-#logic 
+
 
 A = B (when A and B are formulae) 
 - This means A and B are the **same formula**

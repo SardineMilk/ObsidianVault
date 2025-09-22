@@ -1,10 +1,13 @@
-#softwaredevelopment
+#meta
 
 Weeks 1-5:
 - Programming Fundamentals
 
 Weeks 7-11:
 - Object-Oriented Programming
+
+This course will use [[Java]]
+
 
 50% coursework
 - Assessed Lab - 5%

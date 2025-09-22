@@ -8,31 +8,31 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#logic  ",
+      "query": "path:\"Introduction To Interaction Design\"  ",
       "color": {
         "a": 1,
         "rgb": 14701138
       }
     },
     {
-      "query": "tag:#interactiondesign  ",
+      "query": "path:Praxis  ",
       "color": {
         "a": 1,
         "rgb": 14725458
       }
     },
     {
-      "query": "tag:#praxis",
+      "query": "path:\"Software Development\"  ",
       "color": {
         "a": 1,
         "rgb": 11657298
       }
     },
     {
-      "query": "tag:#softwaredevelopment  ",
+      "query": "path:\"Logic And Proof\"  ",
       "color": {
         "a": 1,
-        "rgb": 5413856
+        "rgb": 5419488
       }
     }
   ],
@@ -43,9 +43,9 @@
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
   "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
+  "repelStrength": 11.0416666666667,
   "linkStrength": 1,
-  "linkDistance": 107,
-  "scale": 1.5901557071865422,
-  "close": true
+  "linkDistance": 231,
+  "scale": 0.4711572465737902,
+  "close": false
 }

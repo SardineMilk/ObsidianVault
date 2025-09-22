@@ -1,4 +1,4 @@
-#logic
+
 Valid statements in PL are known as Well-Formed Formulae (wff).
 Wff are defined by the following rules:
 

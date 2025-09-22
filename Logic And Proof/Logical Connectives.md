@@ -1,4 +1,4 @@
-#logic
+
 
 You can construct all logical connectives from Not + (And/Or)
 

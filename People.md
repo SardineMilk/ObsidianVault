@@ -1,21 +1,22 @@
 #meta 
 [[Introduction To Interaction Design]]
 - Dr Theo Georgiou
+- T.Georgiou@hw.ac.uk
 - Office - Mondays 14:00-15:00 (EMB G.53)
 
 [[Logic And Proof]]
 - Mark Lawson
-- m.v.lawson@hw.ac.uk
+- M.V.Lawson@hw.ac.uk
 - Office - Mondays 14:00-17:00 (CM G.15)
 
 [[Praxis]]
 - Dr Tessa Berg
-- t.berg@hw.ac.uk
+- T.Berg@hw.ac.uk
 - Office - by appointment 
 
 [[Software Development]]
 - Mehran Shargi
-- m.shargi@hw.ac.uk
+- M.shargi@hw.ac.uk
 - 
 
 Student Advisor (SA)
