@@ -33,3 +33,14 @@ Desire paths
 - humans will disobey design if it is more convenient
 
 # End Goal = Get Money
+
+
+Where do we start?
+- Ask users about current experiences
+Gives a clear understanding of "how" and "why" before writing code
+- saves time and money
+It is harder to change design after committing it to code
+- more on this in [[Prototyping]]
+
+Its better to investigate, plan and design before jumping into programming
+[[Problem Space]]

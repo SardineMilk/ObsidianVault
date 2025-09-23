@@ -2,16 +2,16 @@
 
 You can construct all logical connectives from Not + (And/Or)
 
-| English | Symbol     | Name                  |
-| ------- | ---------- | --------------------- |
-| not     | $\neg$     | negation              |
-| and     | $\land$    | conjunction           |
-| or      | $\lor$     | disjunction           |
-| xor     | $\oplus$   | exclusive disjunction |
-| iff     | $\iff$     | biconditional         |
-| implies | $\implies$ | conditional           |
-| true    | $\top$     | tautology             |
-| false   | $\bot$     | contradiction         |
+| English | Symbol     | Name                  | Code    |
+| ------- | ---------- | --------------------- | ------- |
+| not     | $\neg$     | negation              | neg     |
+| and     | $\land$    | conjunction           | land    |
+| or      | $\lor$     | disjunction           | lor     |
+| xor     | $\oplus$   | exclusive disjunction | oplus   |
+| iff     | $\iff$     | biconditional         | iff     |
+| implies | $\implies$ | conditional           | implies |
+| true    | $\top$     | tautology             | top     |
+| false   | $\bot$     | contradiction         | bot     |
 [[Logic-book.pdf#page=19&selection=69,53,111,14|Logic-book, page 19]]
 
 
@@ -51,6 +51,50 @@ This statement will be false if it is my birthday, and I don't have a birthday p
 To define these logical connectives, [[Truth Tables]] can be used
 
 
+**Adequacy**
+We say that a set of logical connectives is **adequate** means that every [[Well-Formed Formulae |well-formed formula]]
+is logically equivalent to a wff constructed of of atoms and only the logical connectives in C
+
+$\neg, \land, \lor$ is an adequate set of connectives. 
+Can we do better than that?
+Using [[De Morgan's Laws]], we can.
+
+$\neg (p \land q) \equiv \neg p \lor \neg q$
+$\neg (p \lor q) \equiv \neg p \land \neg q$
+
+$\neg \neg (p \lor q) \equiv \neg (\neg p \land \neg q)$
+$p \lor q \equiv \neg (\neg p \land q)$
+
+Therefore, $\neg, \land$ is an adequate set of connectives
+Additionally, $\neg, \lor$ is also an adequate set
+
+To show that a set of connectives is adequate, you can just show that you can construct $\neg, \land$  or $\neg, \lor$ from them
+
+*Example:*
+$\bot, \implies$ is adequate.
+*Solution:*
+$p \implies \bot \equiv \neg p$
+
+| $p$ | $\bot$ | $p \implies \bot$ |
+| --- | ------ | ----------------- |
+| T   | F      | F                 |
+| F   | F      | T                 |
+
+$p \implies q \equiv \neg p \lor q$
+$(\neg p) \implies q \equiv \neg (\neg p) \lor q$
+$(\neg p) \implies q \equiv p \lor q$
+
+*Example:*
+"p nand q" is adequate
+p nand q = $\neg (p \land q)$
+p nor q = $\neg (p \lor q)$
+
+*Solution:*
+p nand p $\equiv \neg (p \land p) \equiv \neg p$
+$\neg (p$ nand $q) \equiv \neg \neg (p \land q) \equiv (p \land q)$
+
+this proves that nand is adequate on its own
+
 **Example 1.1.3**
 headlight warning IF ((key out AND door open) AND (headlights OR parking lights))
 
@@ -58,7 +102,7 @@ p = key out
 q = door open
 r = headlights on
 s = parking lights on
-
+ 
 t $\iff$ ((p $\land$ q) $\land$ (r $\lor$ s))
 
 | p   | q   | r   | s   | t   |
