@@ -4,6 +4,12 @@ It involves components for learning about and defining a problem before designin
 Investigate surrounding information
 How is it being used? Why? How can we change this? What should we change?
 
+Who?  
+What?
+Where?
+Why? 
+When? - is it at night idk
+
 - Understand usability and goals of users
 - Identify and understand technology involved
 - Define assumptions and claims

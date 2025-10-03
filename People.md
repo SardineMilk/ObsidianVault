@@ -25,3 +25,7 @@ Student Advisor (SA)
 Year Coordinator
 - Dr Jeevani Goonetillake
 - Dr Jessica Chen-Burger
+
+Library Effective Learning Advisor
+- Rachel Whittington
+- R.Whittington@hw.ac.uk

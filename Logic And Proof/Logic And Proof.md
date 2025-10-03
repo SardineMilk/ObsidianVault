@@ -23,7 +23,7 @@ Statements
 
 Logical statements can be displayed with:
 - [[Truth Tables]] - Showing all possible inputs and outputs
-- [[Trees]] - Showing graphical structure of statement
+- [[Parse Trees]] - Showing graphical structure of statement
 
 Logical Constants:
 Bold T/F are always True/False - in handwriting, they're underlined

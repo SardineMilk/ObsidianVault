@@ -14,3 +14,12 @@ Propositional Logic (PL) is a formal language. It is composed of [[Atomic Statem
 
 Formulae in propositional logic are also known as [[Well-Formed Formulae]]
 
+
+#### Example of bad news
+1.
+All men are mortal
+Socrates was a man
+$\therefore$ Socrates is mortal
+
+**This is a valid argument, but cannot be formalised in propositional logic**
+but this can be formalised in [[First-Order Logic]] (FOL)

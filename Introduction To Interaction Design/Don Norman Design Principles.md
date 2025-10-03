@@ -1,4 +1,6 @@
-
+Don Norman Doors
+- you know the ones
+- why is there a handle on that side
 
 - Visibility
 	- use should be obvious from first glance
