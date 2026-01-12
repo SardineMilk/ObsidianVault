@@ -1,4 +1,4 @@
-A special set of classes provided by [[Java]]
+A special set of classes provided by [[Semester 1/Software Development 1/Java]]
 
 Dozens of types of collection
 Dynamically sized

@@ -5,7 +5,7 @@ Almost always our/users fault
 
 Should be handled without crashing
 
-All [[Errors]] and Exceptions inherit from **Throwable**
+All [[Semester 1/Software Development 1/Errors]] and Exceptions inherit from **Throwable**
 
 
 ### Throwable

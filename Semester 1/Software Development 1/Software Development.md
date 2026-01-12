@@ -6,7 +6,7 @@ Weeks 1-5:
 Weeks 7-11:
 - Object-Oriented Programming
 
-This course will use [[Java]]
+This course will use [[Semester 1/Software Development 1/Java]]
 
 
 50% coursework
