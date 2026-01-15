@@ -11,7 +11,7 @@ Usability
 - Satisfaction
 
 
-[[User Experience]] - UX
+[[Semester 1/Introduction To Interaction Design/User Experience]] - UX
 - Satisfaction
 - Enjoyment
 - Pleasure

@@ -18,3 +18,7 @@
 ##### 1.4
 - [[Mathematical Induction]]
 
+### Tests
+Class Test 1: Week 5 Tue 12-1pm, Chap 1+2, 20%, 
+Class Test 2: Week 10 Tue 12-1pm, Chap 4, 20%, 
+Final, TBD, All chapters, 60^

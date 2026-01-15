@@ -27,7 +27,7 @@ Avoid
 
 Hard to quantify - not impossible
 
-Other side of coin of [[User Experience]]
+Other side of coin of [[Semester 1/Introduction To Interaction Design/User Experience]]
 - Support each other, but may conflict
 - Importance depend on application
 	- Game is more focused on User Experience
