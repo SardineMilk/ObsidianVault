@@ -8,6 +8,7 @@ Capital letters in latex blocks are sets
 - Can be finite or infinite
 	- $A = \{x | \}$ is an even positive integer and x<10 $= \{2, 4, 6, 8\}$
 	- $A = \{x | \}$ is an even positive integer = \{2, 3, 6, 8, 10, ...\}$ 
+	- [[Number Sets]] are infinite
 	
 **Subset** - set $B$ is a subset of set $A$ if every element of $B$ is also an element of $A$
 - $B = \{1, 3\}$
@@ -24,9 +25,9 @@ Capital letters in latex blocks are sets
 - $A = \{1, 2, 3\}, B= \{x, y\}$
 - $A \bigtimes B = \{(1, x), (1, y), (2, x), (2, y), (3, x), (3, y)\}$
 - This is a [[Set Operations|set operation]], defined as:
-	- $A \bigtimes B := \{(a, b)|a \in A, b \in B \}$
-
-
+	- $A \bigtimes B = \{(a, b)|a \in A, b \in B \}$
+- You can visualise this draw a graph, with the elements of $A$ on $x$ and $B$ on $y$, with the intersection points being the pairs of $A \bigtimes B$
+5
 #### Relevant Exercises:
 ![[Exercises#1.1.1]]
 

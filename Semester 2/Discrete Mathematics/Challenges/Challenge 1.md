@@ -107,3 +107,5 @@ By the principle of mathematical induction, $P(n)$ is true for any $n$
 
 
 
+3.
+Prove that any $2^n * 2^n$ chessboard with one square removed can be fully covered by L shaped tiles, formed of 3 squares each

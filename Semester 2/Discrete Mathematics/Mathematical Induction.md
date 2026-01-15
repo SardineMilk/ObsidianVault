@@ -38,7 +38,7 @@ Guess a formula for $s_n$ and use induction to prove it
 $s_n = \frac {n(n+1)}{2}$
 
 *Create statement*
-Let $P(n)$ be the statement $1+2+...+n = \frac {n(n+1)}{2}$
+Let $P(n)$ be the statement $1+2+3+...+n = \frac {n(n+1)}{2}$
 
 *Prove base case*
 $P(1)$ states states $1 = \frac {1(1+1)}{2}$

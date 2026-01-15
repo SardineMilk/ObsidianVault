@@ -12,7 +12,7 @@ b)
 $A \cap \bar B = \{2, 7\}$
 
 c)
-$(A \cap B) \cup \bar C = \{1\}$
+$(A \cap B) \cup \bar C = \{1, 3, 4, 6, 8\}$
 
 d)
 $\overline {A \cap B} = \{2, 3, 4, 5, 6, 7, 8\}$
@@ -79,14 +79,14 @@ $P(1)$ states $1 + 2^1 = 2^ {1 + 1} - 1$
 $3 = 2^2 - 1$
 This is true
 Assume $P(k)$ is true: $1 + 2^1 + ... + 2^k = 2 ^ {k + 1} - 1$
-Then
+Then $P(k+1)$: $1 + 2^1 + ... + 2^k + 2 ^ {k + 1} = 2^{k+2} - 1$
+The left hand side of $P(k+1)$ is:
 $1 + 2^1 + ... + 2^k + 2 ^ {k + 1}$ 
 $= (2 ^ {k + 1} - 1) + 2^{k+1}$
 $= 2^{k+1} + 2^{k+1} - 1$
 $= 2 * 2^{k+1} - 1$
 $= 2^{k+2} - 1$
 This matches the right hand side of $P(k+1)$,
-$2^{k+1+1}-1$
 Thus, we see that $P(k+1)$ follows from $P(k)$
 By the principle of mathematical induction, $P(n)$ is true for any positive integer $n$
 
