@@ -7,7 +7,8 @@ $n$ is any positive integer, substituted into all $n$ symbols in the formula
 
 To prove $P(n)$, first you prove that $P(1)$ holds (is true).
 This is called the **base case**
-Sometimes the base case will be 
+Sometimes the base case will be greater than 1, for example $n \geq 7$
+- If this happens, you have to slightly change the final part of your proof, to state it is true for all integers greater than 7, rather than all positive integers
 
 Then comes the **inductive step**. 
 You assume that $P(k)$ is true, with $k$ being any positive integer.
