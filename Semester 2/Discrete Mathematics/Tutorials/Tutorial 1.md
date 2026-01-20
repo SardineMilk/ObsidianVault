@@ -160,7 +160,7 @@ $P(1)$ states that $1(1!) = (n + 1)! - 1$
 
 Assume $P(k)$ is true:
 $1(1!)+...+k(k!) = (k+1)! - 1$
-Then we must show
+Then we must show $P(k+1)$
 $1(1!)+...+k(k!)+(k+1)((k+1)!) = (k+2)! - 1$
 
 $1(1!)+...+k(k!)+(k+1)((k+1)!)$

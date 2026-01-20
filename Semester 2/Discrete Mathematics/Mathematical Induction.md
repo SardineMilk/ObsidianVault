@@ -1,26 +1,29 @@
-Is a [[Proofs|proof]] technique
+Mathematical Induction is a [[Proofs|proof]] technique
 Used for statements that depend on integers
 
 ### Procedure
 $P(n)$ is the statement you are trying to prove
 
 **Step 1:** 
-State $P(n)$
-- Let $P(n)$ be the statement $n * 2 = n + n$ 
+*State $P(n)$*
+Let $P(n)$ be the statement $n * 2 = n + n$ 
 
 **Step 2:** Base Case
-Show that $P(1)$ is true
-- $P(1)$ states that $1 * 2 = 1 + 1$
+*Show that $P(1)$ is true*
+
+$P(1)$ states that $1 * 2 = 1 + 1$
+This is true, so $P(1)$ holds
 
 **Step 3:** Inductive Step
-Show that if $P(k)$ is true then $P(k+1)$ is true, where $k$ is any positive integer 
-- Assume $P(k)$ is true: $k * 2 = k + k$
-- We must show $P(k+1)$ is true:
-	- $(k+1) * 2 = (k + 1) + (k + 1)$
-	- $2k + 2 = k + 1 + k + 1$
-	- $2k + 2 = 2k + 2$
-- Since $2k + 2 = 2k + 2$ is true, we see that $P(k + 1)$ follows from $P(k)$
-- By the principle of mathematical induction, $P(n)$ is true for any positive integer $n$
+*Show that if $P(k)$ is true then $P(k+1)$ is true, where $k$ is any positive integer*
+Assume $P(k)$ is true: $k * 2 = k + k$
+We must show $P(k+1)$ is true:
+*refactor $P(k+1)$ so the RHS is equivalent to the LHS*
+$(k+1) * 2 = (k + 1) + (k + 1)$
+$2k + 2 = k + 1 + k + 1$
+$2k + 2 = 2k + 2$
+Since $2k + 2 = 2k + 2$ is true, we see that $P(k + 1)$ follows from $P(k)$
+By the principle of mathematical induction, $P(n)$ is true for any positive integer $n$
 
 ### Sequences
 #### Question

@@ -62,7 +62,7 @@ This is true, so $P(2)$ holds
 
 Assume $P(k)$ is true:
 $3^k > 2^{k+1}$
-We must show that
+We must show that $P(k+1)$ holds:
 $3^{k+1} > 2^{k+2}$
 $3^k * 3 > 2^{k+1} * 2$
 $3^k * 3/2 > 2^{k+1}$
