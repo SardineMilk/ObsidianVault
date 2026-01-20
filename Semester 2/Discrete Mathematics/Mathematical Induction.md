@@ -1,9 +1,33 @@
 Mathematical Induction is a [[Proofs|proof]] technique
 Used for statements that depend on integers
 
-### Procedure
-$P(n)$ is the statement you are trying to prove
+### How It Works
+$P(n)$ is the statement you are trying to prove, a formula 
+$n$ is any positive integer, substituted into all $n$ symbols in the formula
 
+To prove $P(n)$, first you prove that $P(1)$ holds (is true).
+This is called the **base case**
+Sometimes the base case will be 
+
+Then comes the **inductive step**. 
+You assume that $P(k)$ is true, with $k$ being any positive integer.
+You have to prove that $P(k+1)$ is also true
+You do this by refactoring the LHS of $P(k+1)$ to be equivalent to the RHS.
+Since you are assuming $P(k)$ holds, you can substitute it into parts of $P(k+1)$ if needed
+- The sequences example explains this in practice
+This proves that *if* $P(k)$ is true, then $P(k+1)$ *must* be true
+
+How does this prove anything?
+You've shown that $P(1)$ holds
+You've also shown that if $P(k)$ holds, then $P(k+1)$ also holds
+So:
+$P(1)$ holds, so $P(1+1)$ -> $P(2)$ holds.
+$P(2)$ holds, so $P(3)$ holds
+$P(3)$ holds, so...
+and so on for every positive integer greater than the base case
+
+### Procedure
+Here's a very simple proof by induction, to show how it works
 **Step 1:** 
 *State $P(n)$*
 Let $P(n)$ be the statement $n * 2 = n + n$ 
@@ -101,7 +125,7 @@ By the principle of mathematical induction, $P(n)$ is true for any positive inte
 
 
 ### Common Problems
-#### No Inductive Step
+
 #### False Base Case
 1.
 Let $P(n)$ be the statement $n = n + 1$
@@ -120,15 +144,8 @@ It is not enough to prove that is $P(k)$ is true then $P(k + 1$ is true
 The base case $P(1)$ must also be true
 
 #### Limited Inductive Step
+In the inductive step only prove for some integers, not for any arbitrary integer
 
-
-### Example
-Find a formula for sum of the first $n$ odd integers
-
-Let $P(n)$ be the statement 
-$1+3+5+7+ ... + (2n - 1) = n^2$
-
-##### Proof:
 
 ### Relevant Exercises
 ![[Exercises#1.4.1]]
