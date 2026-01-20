@@ -46,9 +46,9 @@ $P(1)$ states states $1 = \frac {1(1+1)}{2}$
 - This is true, so $P(1)$ holds
 
 *Inductive step*
-Assume $P(k)$ is true:
+Assume $P(k)$ holds for some integer $k$:
 $1 + ... + k = \frac {k(k+1)}{2}$
-We must show $P(k+1)$ is true:
+We must show $P(k+1)$ holds:
 $1 + ... + k + (k+1) = \frac {(k+1)(k+1+1)}{2}$
 *start with left hand side*
 $1 + ... + k + (k+1)$
@@ -60,7 +60,9 @@ $1 + ... + k + (k+1)$
  $= \frac {k(k+1)+2(k+1)}{2}$
  $= \frac {(k+1)*(k+2)}{2}$
  This matches the right hand side
- Thus, we see that $P(k+1)$ follows from $P(k)$
+ Thus, $P(k+1)$ holds
+ 
+ Since $P(k+1)$ follows from $P(k)$,
  By the principle of mathematical induction, $P(n)$ is true for any positive integer $n$
 
 ### Divisibility

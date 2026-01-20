@@ -41,13 +41,14 @@ $\overline {A \cap B} = \bar A \cup \bar B$
 
 3.
 a)
-$B$ is a subset of $A$
+$A \cup B  = A$ implies $B \subset A$
 
 b)
-$A$ is a subset of $B$
+$A \cap B  = A$ implies $A \subset B$
 
 c)
-$B$ shares no elements with $A$
+$A \textbackslash B = A$ implies $A \cap B = \emptyset$
+
 
 4.
 $U = \{1, 2, 3, 4, 5, 6, 7\}$
@@ -75,29 +76,38 @@ j) $\{3\} \subset A$ T
 
 6.
 Let $P(n)$ be the statement $1 + 2^1 + 2^2 + 2^3 + ... + 2^n = 2 ^ {n + 1} - 1$
-$P(1)$ states $1 + 2^1 = 2^ {1 + 1} - 1$
+
+$P(1)$ states:
+$1 + 2^1 = 2^ {1 + 1} - 1$
 $3 = 2^2 - 1$
-This is true
-Assume $P(k)$ is true: $1 + 2^1 + ... + 2^k = 2 ^ {k + 1} - 1$
-Then $P(k+1)$: $1 + 2^1 + ... + 2^k + 2 ^ {k + 1} = 2^{k+2} - 1$
+$3 = 4 - 1$
+This is true, therefore $P(1)$ holds
+
+Assume $P(k)$ holds for some $k$: $1 + 2^1 + ... + 2^k = 2 ^ {k + 1} - 1$
+Then $P(k+1)$: 
+$1 + 2^1 + ... + 2^k + 2 ^ {k + 1} = 2^{k+2} - 1$
 The left hand side of $P(k+1)$ is:
 $1 + 2^1 + ... + 2^k + 2 ^ {k + 1}$ 
-$= (2 ^ {k + 1} - 1) + 2^{k+1}$
+$= [2 ^ {k + 1} - 1] + 2^{k+1}$
 $= 2^{k+1} + 2^{k+1} - 1$
 $= 2 * 2^{k+1} - 1$
 $= 2^{k+2} - 1$
-This matches the right hand side of $P(k+1)$,
+This matches the right hand side, so $P(k+1)$ holds
 Thus, we see that $P(k+1)$ follows from $P(k)$
 By the principle of mathematical induction, $P(n)$ is true for any positive integer $n$
 
 
 7.
 Let $P(n)$ be the statement $a_n = 2^{n+1} - 1$
-$P(1)$ states $3 = 2^{1+1} - 1$
-- $3 = 4 -1$, this is true
 
-Assume $P(k)$ is true: $a_k = 2^{k+1} - 1$
-Then we must show that
+$P(1)$ states:
+$3 = 2^{1+1} - 1$
+$3 = 4 -1$
+This is true, so $P(1)$ holds
+
+Assume $P(k)$ is true:
+$a_k = 2^{k+1} - 1$
+Then we must show $P(k+1)$ holds:
 $a_{k+1} = 2^{k+2} - 1$
 Using the recursive definition:
 $a_{k+1} = 2a_k + 1$
