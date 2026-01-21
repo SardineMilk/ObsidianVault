@@ -125,3 +125,40 @@ This matches the right hand side
  By the principle of mathematical induction, $P(n)$ is true for  $n \geq 2$
 
 
+##### 1.5.1
+$A = \{2, 3, 4, 5, 6\}$
+$R = \{(a,b)\in A \times A| a \space divides \space b\}$
+$R = \{(2, 4), (2, 6), (3, 6)\}$
+
+##### 1.5.2
+$R = \{(a, b)\in \mathbb{R} | a \leq b \}$
+
+Is $R$ reflexive?
+$a \leq a$, so $(a, a)$ is in $R$
+So $R$ is reflexive.
+
+Is $R$ symmetric?
+Take two elements of $\mathbb{R}$, $a$ and $b$,  with $a < b$
+$a \leq b$, so $(a, b)$ is in $R$
+but $b \leq a$ is false, so $(b, a)$ is not in $R$
+So $R$ is not symmetric.
+
+Is $R$ antisymmetric?
+If both $(a, b)$ and $(b, a)$ are in $R$, then
+$a \leq b$, and $b \leq a$, 
+which implies $a = b$
+So $R$ is antisymmetric.
+
+Is $R$ transitive?
+If $a \leq b$ and $b \leq c$, then $a \leq c$
+So $R$ is transitive.
+
+##### 1.5.3
+$A = \{1, 2, 3\}$
+$R = \{(1, 2), (2, 2), (2, 3)\}$
+
+$R_r = \{(1,1), (1, 2), (2, 2), (2, 3), (3,3)\}$
+$R_s = \{(1, 2), (2,1), (2, 2), (2, 3), (3,2)\}$
+$R_t = \{(1, 2), (1, 3), (2, 2), (2, 3)\}$
+
+

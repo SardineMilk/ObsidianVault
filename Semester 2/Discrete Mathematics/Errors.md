@@ -18,3 +18,6 @@ Challenge 1, Q3
 " 2n ×2n checkerboard
 with one squared removed"
 squared -> square
+
+Exercise 1.5.3, c
+"the trasitive closure of $R$"
