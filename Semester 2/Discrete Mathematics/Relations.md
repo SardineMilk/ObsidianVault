@@ -10,6 +10,7 @@ $B=\{4, 5, 6\}$
 $R = \{(a, b) \in A \times B | a,b<5\}$
 $R = \{(1, 4), (2, 4), (3, 4)\}$
 
+If $(a, b)$ is in $R$, we can say $a R b$
 
 Relations can be represented by a directed graph of nodes and arrows
 
@@ -59,8 +60,9 @@ $R = \{(1, 3), (3, 1), (1,1),(2,2)\}$ *<- also not antisymmetric*
 $\forall a,b,c \in A, [(a,b) \in R \land (b,c) \in R] \implies (a,c) \in R$
 Whenever $(a,b)$ and $(b,c)$ exist in $R$, so does $(a,c)$
 
+"$a$ is the ancestor of $b$" is transitive 
 "$a$ is taller than $b$" is transitive
-"$a$ is the ancestor of $b$" is transitive
+- If Amy is taller than Bob, and Bob is taller than Charlie, then Amy must be taller than Charlie
 
 **Example:**
 $A = \{1, 2, 3, 4\}$
@@ -92,7 +94,7 @@ $[a] = \{x \in A | (x, a) \in R\}$
 $A = \{1, 3, 5, 9, 11, 18\}$
 $R = \{​(1,1),(1,5),(1,9),(5,1),(5,5),(5,9),(9,1),(9,5),(9,9),(3,3),(3,11),(11,3),(11,11),(18,18)\}$​
 
-$[1] = \{1, 5, 9\}$ *The set of all elements x where (x, 1) or (1, x) is in R*
+$[1] = \{1, 5, 9\}$ *The set of all elements x where (x, 1) or (1, x) is in R - if one is both will be*
 $[3] = \{3, 11\}$
 $[5] = \{1, 5, 9\}$
 $[9] = \{1, 5,9\}$
@@ -105,5 +107,6 @@ You can remove any duplicate classes, leaving only one of each element of $A$:
 $C_1 = \{1, 5, 9\}$
 $C_2 = \{3, 11\}$
 $C_3 = \{18\}$
+
 
 ### Closures
