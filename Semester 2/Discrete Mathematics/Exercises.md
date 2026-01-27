@@ -162,3 +162,150 @@ $R_s = \{(1, 2), (2,1), (2, 2), (2, 3), (3,2)\}$
 $R_t = \{(1, 2), (1, 3), (2, 2), (2, 3)\}$
 
 
+##### 1.6.1
+For each function, find its range
+Determine if its *surjective* and/or *injective* 
+$X$ is the set of all finite non empty bit strings
+$Y$ is the set of all non-negative integers
+
+a)
+$f: \mathbb{R} \rightarrow \mathbb{R}, f(x) = 2x + 1$
+The range is $\mathbb{R}$
+The range is equal to the codomain, so $f$ is *surjective*
+Every element of the codomain has exactly one corresponding element of the domain, 
+so $f$ is *injective*
+
+b)
+$g: \mathbb{R} \rightarrow \mathbb{R}, g(x) = x^4 + 1$
+The range is $y \in \mathbb{R}, y>=1$
+The range is not equal to the codomain, so $g$ is *not surjective*
+The function is symmetric on the $y$ axis. $x, -x$ produce the same output
+Therefore, it is *not injective*
+
+c)
+$h: X \rightarrow Y, h(s) =$ number of ones in $s$
+
+For some integer $s$, the string consisting of $s$ ones is in $X$
+Therefore, it is *surjective*
+The bit strings $1$ and $01$ produce the same output (1)
+Therefore, $h$ is *not injective*
+
+d)
+$j : X \rightarrow Y, j(s) =$ the first bit of $s$
+The first bit of $s$ may only be $0$ or $1$, therefore $j$ is *not surjective*
+Any bit string beginning with $0$ will produce the output $0$, therefore it it *not injective*
+
+##### 1.6.2
+$f, g, h$ have $\mathbb{R}$ as their domain and codomain
+$f(x) = 4x-3$
+$g(x) = x^2 + 1$
+$h(x) = x \geq 0 ? 1:0$
+
+a)
+$f \circ f = f(f(x)) = f(4x-3) = 4(4x - 3) - 3 = 16x - 15$
+b)
+$h \circ f = h(f(x)) = h(4x-3) = x \geq 3/4 ? 1:0$
+c)
+$h \circ g = h(g(x)) = h(x^2 + 1) = (x^2+1) \geq 0?1:0 = x^2 \geq -1 ? 1:0 = 1$
+
+##### 1.6.3
+Find the inverse function for:
+a)
+$g: \mathbb{R} \rightarrow \mathbb{R}, g(x) = \sqrt{x^2}$
+$x$ and $-x$ produce the same output: $x$
+Therefore, $g$ is not injective
+Since a function is invertible if and only if it is bijective, $g$ is not invertible
+
+b)
+$j: S \rightarrow S$
+$S =$ The set of non-empty finite strings of lower case letters
+$j(s) =$ move the last character to the beginning of the string
+
+Inverse:
+$j(s) =$ move the beginning character to the end of the string
+
+
+##### 1.7.1
+How many binary words with length 7?
+$2*2*2*2*2*2*2 = 128$
+Length 1 2 or 3?
+$(2) + (2 * 2) + (2*2*2) = 14$
+
+##### 1.7.2
+A salesman visits 5 towns once each. How many possible orders?
+$5*4*3*2*1 = 120 = 5!$ 
+
+##### 1.7.3
+How many numbers between 1 and 1000 have exactly one 7?
+
+$**7$
+Units - 1 number
+Tens - 9 numbers
+Hundreds - 9  numbers
+$1 * 9 * 9 = 81$
+
+$*7*$
+Units - 9 numbers
+Tens - 1 number
+Hundreds - 9 numbers
+$9 * 1 * 9 = 81$
+
+$7**$
+Units - 9 numbers
+Tens - 9 numbers
+Hundreds - 1 numbers
+$9 * 9 * 1 = 81$
+
+$81+81+81 = 243$
+
+
+##### 1.8.1
+How many ways can a subset of one or two elements be picked from a set on $n$ elements?
+
+$\binom {n}{1} = \frac{n!}{(n-1)!*1!} = \frac{n!}{(n-1)!} = n$
+$\binom {n}{2} = \frac{n!}{(n-2)!*2!} = \frac{n!}{(n-2)! * 2}$
+$\frac{n!}{(n-2)! * 2} + n$
+$= 0.5 * n * (n+1)$
+
+##### 1.8.2
+A university has 12 male professors and 3 female professors.
+How many committees of 12 people containing at least one female member?
+
+$\binom{3}{1} = \frac{3!}{(3-1)!*1!} = 3$
+$\binom{12}{11} = \frac{12!}{(12-11)!*11!} = 12$
+$3 * 12 = 36$
+
+$\binom{3}{2} = \frac{3!}{(3-2)!*2!} = 3$
+$\binom{12}{10} = \frac{12!}{(12-10)!*10!} = 66$
+$3 * 66 = 198$
+
+$\binom{3}{3} = \frac{3!}{(3-3)!*3!} = 1$
+$\binom{12}{9} = \frac{12!}{(12-9)!*9!} = 220$
+$1 * 220 = 220$
+
+$36 + 198 + 220 = 454$
+
+##### 1.8.3
+20 undergrads, 10 postgrads
+Pick 5 where:
+
+Any team is valid
+$\binom{30}{5} = \frac{30!}{(30-5)! * 5!} = 142,506$
+There must be 2 postgrads and 3 undergrads
+$\binom{20}{3} = \frac{20!}{(20-3)! * 3!} = 1140$
+$\binom{10}{2} = \frac{10!}{(10-2)! * 2!} = 45$
+$1140 * 45 = 51300$
+
+##### 1.8.4
+How many ways to pick $k$ distinct numbers from $\{1, 2, \dots, n\}$, if 1 and 2 cannot both be picked?
+
+Either:
+Pick $k$ from $3-n$ inclusive:  $n-2$ choose $k$
+Pick $k-1$ from $3-n$, and $1$:  $n-2$ choose $k-1$
+Pick $k-1$ from $3-n$, and $2$:  $n-2$ choose $k-1$
+
+$\binom{n-2}{k} = \frac{(n-2)!}{(n-2-k)!*k!}$
+$\binom{n-2}{k-1} = \frac{(n-2)!}{(n-2-(k-1))!*(k-1)!}$
+
+$\binom{n-2}{k} + 2\binom{n-2}{k-1}$
+$\frac{(n-2)!}{(n-2-k)!*k!} +  \frac{2(n-2)!}{(n-2-(k-1))!*(k-1)!}$

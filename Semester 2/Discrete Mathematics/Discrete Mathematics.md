@@ -17,6 +17,10 @@
  - [[Computer Representation of Sets]]
 ##### 1.4
 - [[Mathematical Induction]]
+##### 1.5
+- [[Relations]]
+##### 1.6
+- [[Functions]]
 
 ### Tests
 Class Test 1: Week 5 Tue 12-1pm, Chap 1+2, 20%, 
