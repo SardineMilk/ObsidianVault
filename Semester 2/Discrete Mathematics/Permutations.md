@@ -1,7 +1,11 @@
 
 
+The number of *ordered* subsets of the set $n$ of length $k$ is:
+$\frac{n!}{(n-k)!}$
+
+Since the number of orders for a subset of length $k$ is $k!$,
 The number of *unordered* subsets of the set $n$ of length $k$ is:
-$\frac{n!}{(n-k)! * k}$
+$\frac{n!}{(n-k)! * k!}$
 
 # $\binom{n}{k} := \frac{n!}{(n-k)! * k!}$
 "$n$ choose $k$"
@@ -21,3 +25,4 @@ $=635,013,559,600$
 ![[Exercises#1.8.3]]
 
 ![[Exercises#1.8.4]]
+

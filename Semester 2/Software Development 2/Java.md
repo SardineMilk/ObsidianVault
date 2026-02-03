@@ -43,3 +43,11 @@ myObject.toString;
 Output: file.Apple@memorylocation123
 
 You can use `if (myObject instanceof Apple)` or similar to differentiate between subclasses cast to a superclass, and run different code depending on the class
+
+```
+for (A elem: list) {
+	if (elem instanceof B) {
+		((b) elem).methodB();
+	}
+}
+```
