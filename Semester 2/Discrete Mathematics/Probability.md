@@ -50,16 +50,71 @@ $P(5) = \frac{1}{6}$
 $P(rolling \space odd \space number) = \frac{3}{6}$
 
 
+### Conditional and Independent Probability
 
-16 * 30 = 480
+#### Conditional
 
-100/480
-100/479
-...
-100/380
+A fair coin is tossed twice 
+The coin landed heads up at least one time. (Event $A$)
+We are told the coin didn't land heads up both times
 
-480
-100
+What is the probability?
 
-= 
-480! / (480-100)! * 100!
+| $P(E)     | 1/4 | 1/4 | 1/4 | 1/4 |
+| --------- | --- | --- | --- | --- |
+| E         | hh  | ht  | th  | tt  |
+| $P(E\|A)$ | 1/3 | 1/3 | 1/3 | 0   |
+
+We define P(E|A) as *conditional* probability
+E happening subject to A already having occurred
+
+Observe: 1/4 = 3/4 * 1/3
+$P(E|A) = P(E) / P(A)$
+Here, E is a simple/elementary outcome
+
+In general:
+$P(A|B) = \frac {P(B \cap A)}{P(A)}$
+
+##### Example 2.12
+A fair coin is tossed 3 times
+What is the probability that the first toss was tails: $B$
+Given that at least one toss was heads: $A$
+
+$S = \{TTT, TTH, THT, THH, HTT, HTH, HHT, HHH\}$
+$A = 7/8$
+$B = 4/8$
+$A \cap B = 3/8$
+$A|B = \frac {P(A \cap B)}{P(A)}$
+$A|B = \frac{3/8}{7/8}$
+$A|B = \frac{3}{7}$
+
+##### Example 2.13
+An urn contains 6 red balls and 3 blue balls
+The balls are drawn one at a time
+
+What is the probability that the first ball is red: $A$
+
+All ways to draw 3 balls = 
+$\binom{9}{3} = \frac {9!}{(9-3)!} = 9 * 8 * 7$
+
+### Independent
+A fair coin is tossed twice
+The events of the first and second toss are *independent*
+
+
+
+$P(A|B) = P(A)$
+and 
+$P(B|A) = P(B)$
+
+
+#### Equiprobable
+If two events have the same probability, they are *equiprobable*
+
+X and Y roll a die
+If the outcome is prime, X wins, else Y wins
+
+Roll a die :$\{1,2,3,4,5,6\}$
+Primes on a die: $\{2,3,5\}$
+$P(prime) = \frac{3}{6} = \frac{1}{2}$
+$P(not \space prime) = \frac{3}{6} = \frac{1}{2}$

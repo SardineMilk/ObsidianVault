@@ -1,4 +1,4 @@
-##### 1.1.1
+f ##### 1.1.1
 List the elements of the set {x | x is the square of an integer and x < 25}
 - $A$ = {x | x is the square of an integer and x < 25}
 - $A = \{0,1, 4, 9,16\}$
@@ -309,3 +309,47 @@ $\binom{n-2}{k-1} = \frac{(n-2)!}{(n-2-(k-1))!*(k-1)!}$
 
 $\binom{n-2}{k} + 2\binom{n-2}{k-1}$
 $\frac{(n-2)!}{(n-2-k)!*k!} +  \frac{2(n-2)!}{(n-2-(k-1))!*(k-1)!}$
+
+
+##### 2.1.1
+Find outcomes, state if they are equiprobable
+a)
+A red, blue and a yellow ball are put into a bag and a ball is draw out at random
+$S = \{red,blue,yellow\}$
+1/3, 1/3, 1/3
+They are equiprobable
+
+b)
+two yellow balls, one red, one blue
+$S = \{y, y, r, b\}$
+$2/3, 1/3, 1/3$
+They are not equiprobable
+
+c)
+two yellow balls, one red, one blue
+Draw two balls
+y, y, r, b
+$S = \{(y,y),(y,r),(y,b),(y,r),(y,b),(r,b)\}$
+1/6, 2/6, 2/6, 1/6
+The outcomes are not equiprobable
+
+##### 2.12
+Prove that if $A \subset B$, then $P(A) \leq P(B)$
+
+If $A \subset B$ (A is a subset of B)
+Then 
+$B = A \cup (B - A)$
+
+$A$ and $B - A$ are disjoint, so
+$P(B) = P(A) + P(B - A)$
+
+Probability must be non negative : $0 \leq P(x) \leq 1$
+$P(B-A) \geq 0$
+
+Therefore
+$P(A) \leq P(A) + P(B-A)$
+and
+$P(B) = P(A) + P(B - A)$
+So
+$P(A) \leq P(B)$
+
