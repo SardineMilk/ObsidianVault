@@ -73,7 +73,8 @@ $P(E|A) = P(E) / P(A)$
 Here, E is a simple/elementary outcome
 
 In general:
-$P(A|B) = \frac {P(B \cap A)}{P(A)}$
+$P(A|B) = \frac {P(A \cap B)}{P(B)}$
+What is the probability of $A$ if $B$ happened
 
 ##### Example 2.12
 A fair coin is tossed 3 times
@@ -84,9 +85,9 @@ $S = \{TTT, TTH, THT, THH, HTT, HTH, HHT, HHH\}$
 $A = 7/8$
 $B = 4/8$
 $A \cap B = 3/8$
-$A|B = \frac {P(A \cap B)}{P(A)}$
-$A|B = \frac{3/8}{7/8}$
-$A|B = \frac{3}{7}$
+$B|A = \frac {P(A \cap B)}{P(A)}$
+$B|A = \frac{3/8}{7/8}$
+$B|A = \frac{3}{7}$
 
 ##### Example 2.13
 An urn contains 6 red balls and 3 blue balls

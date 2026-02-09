@@ -1,4 +1,4 @@
-f ##### 1.1.1
+##### 1.1.1
 List the elements of the set {x | x is the square of an integer and x < 25}
 - $A$ = {x | x is the square of an integer and x < 25}
 - $A = \{0,1, 4, 9,16\}$
@@ -322,7 +322,7 @@ They are equiprobable
 b)
 two yellow balls, one red, one blue
 $S = \{y, y, r, b\}$
-$2/3, 1/3, 1/3$
+$2/4, 1/4, 1/4$
 They are not equiprobable
 
 c)
@@ -353,3 +353,31 @@ $P(B) = P(A) + P(B - A)$
 So
 $P(A) \leq P(B)$
 
+##### 2.1.3
+Rain Today
+$P(A) = 0.3$
+
+Rain Tomorrow
+$P(B) = 0.4$
+
+Rain Today and Tomorrow
+$P(C) = 0.2$
+
+Rain Tomorrow but not Today
+$P(B \cap \bar A)$
+
+$B = (B \cap A) \cup (B \cap \bar A)$
+$P(B \cap \bar A) = P(B) - P(B \cap A)$
+$= 0.4 - 0.2 = 0.2$
+
+
+##### 2.1.4
+$P(A) = 0.75$
+$P(B) = 0.65$
+
+If $A$ and $B$ were mutually exclusive, then:
+$P(A) + P(B) = P(A \cup B)$
+$P(A \cup B) = 0.65 + 0.75 = 1.4$
+$A, B \subset S$
+$P(S) = 1$
+$1.4 > 1$, therefore $A$ and $B$ cannot be mutually exclusive
