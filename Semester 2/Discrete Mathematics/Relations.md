@@ -97,18 +97,17 @@ A relation that is *reflexive*, *symmetric*, and *transitive* is called an *equi
 
 **Example:**
 $A = \{1, 3, 5, 9, 11, 18\}$
-$R = \{(a, b)  \in A \times A | a \equiv b \space (mod \space 4)\}$
-- $(a - b) / 4$ is an integer
+$R = \{(a, b)  \in A \times A | (a - b) \space is \space divisible \space by \space 4\}$
 
 $R = \{​(1,1),(1,5),(1,9),(5,1),(5,5),(5,9),(9,1),(9,5),(9,9),(3,3),(3,11),(11,3),(11,11),(18,18)\}$​
 *Reflexive:* $a - a = 0$, so $(a, a)$ must be in $R$
-*Symmetric:* if $a - b$ is divisible by 4, so is $b - a$
-*Transitive:* if $a - b$ and $b - c$ are divisible by 4, so is $a - c$
+*Symmetric:* if $a - b$ is divisible by 4, so is $b - a$ 
+*Transitive:* if $a - b$ and $b - c$ are divisible by 4, so is $a - c$, because $a-c=(a-b)+(b-c)$
 Therefore, $R$ is an equivalence relation
 
 #### Equivalence Classes
 $R$ is an equivalence relation on $A$
-For each element $a$ in $A$, the *equivalence class of $a$* is the set of all elements $x$ in $A$ where $x$ is related to $a$ by $R$
+For each element $a$ in $A$, the *equivalence class* of $a$ is the set of all elements $x$ in $A$ where $x$ is related to $a$ by $R$
 This is written as $[a]$
 
 $[a] = \{x \in A | (x, a) \in R\}$
@@ -122,21 +121,29 @@ Equivalence classes are *sets*, not relations
 $A = \{1, 3, 5, 9, 11, 18\}$
 $R = \{​(1,1),(1,5),(1,9),(5,1),(5,5),(5,9),(9,1),(9,5),(9,9),(3,3),(3,11),(11,3),(11,11),(18,18)\}$​
 
-$[1] = \{1, 5, 9\}$ *The set of all elements x where (x, 1) or (1, x) is in R - if one is both will be*
+$[1] = \{1, 5, 9\}$ *The set of all elements x where (x, 1) or (1, x) is in R - if one is then both will be*
 $[3] = \{3, 11\}$
 $[5] = \{1, 5, 9\}$
 $[9] = \{1, 5,9\}$
 $[11] = \{3, 11\}$
 $[18] = \{18\}$
 
-Note that some of the equivalence classes contain the same elements as each other: they're *duplicates*
+Note that some of the equivalence classes contain the same elements as each other: they're *identical*
+Equivalence classes are either *identical* or *completely disjoint* - they never partially overlap
 We mostly just care about the *disjoint* or *distinct* equivalence classes.
+
 You can remove any duplicate classes, leaving only one of each element of $A$:
 $C_1 = \{1, 5, 9\}$
 $C_2 = \{3, 11\}$
 $C_3 = \{18\}$
 
+Important properties:
+- Every element of $A$ is in *exactly one* class
+- Classes *do not overlap*
+- Classes added together make $A$
 
+If you drew the graph of a relation, the equivalence classes would be the groups of elements:
+![[equivalence-relation.png]]
 ### Closures
 Let $R$ be a relation on set $A$
 Take a property: reflexive, symmetric, antisymmetric, transitive
