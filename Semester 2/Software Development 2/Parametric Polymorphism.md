@@ -20,4 +20,21 @@ public class Pair<A, B> {
 		this.second = second;
 	}
 }
+
+
+public interface Stack<T> {
+	public void push(T element);
+	public T pop();
+}
+
+public class IntPairStack implements Stack<Pair<Integer, Integer>> {
+	@Override public Pair<Integer, Integer> pop() {
+	
+	}
+	
+	@Override public void push() {
+	
+	}
+	
+}
 ```
