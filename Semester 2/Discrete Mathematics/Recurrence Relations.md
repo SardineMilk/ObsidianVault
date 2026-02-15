@@ -1,7 +1,7 @@
 Geometric
 - depends on $a_{n-1}$ or similar
 Algebraic
-- Doesnt
+- Doesn't
 - Also called *Closed Form*
 ### Closed Form
 Represent a recurrence relation in terms of $n$, without $n{-1}$ of similar
