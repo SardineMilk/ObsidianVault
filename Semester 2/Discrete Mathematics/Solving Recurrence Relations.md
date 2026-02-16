@@ -103,6 +103,19 @@ $c = 1/2$
 
 $a_n = 1/2 * 2^n$
 
+**Example:**
+$a_n = (3.5)a_{n-1}$ 
+$a_1 = 1$
+
+$a_n = c * 3.5^n$
+$a_1 = c * 3.5^1$
+$1 = c * 3.5$
+$c = 1/3.5$
+
+$a_n = (1/3.5) * (3.5^n)$
+$a_n = 3.5^{n-1}$ *<- Simplified*
+
+
 #### Second Order Linear Homogeneous
 *Characteristic Equation* - The most important method
 **General Relation Form:**
@@ -110,7 +123,7 @@ $a_n = c a_{n-1} +  d a_{n-2}$
 
 **General Solution:**
 The general solution of
-$a_n = c a_{n-1} +  c a_{n-2}$
+$a_n = c a_{n-1} +  d a_{n-2}$
 
 Where $r_1$ and $r_2$ are solutions of the characteristic equation, is
 If $r_1 \neq r2$
@@ -134,7 +147,7 @@ $a_1 = 1, a_2 = 2$
 
 *2. Form characteristic equation*
 $r^n = 2(r^{n-1}) + 3(r^{n-2})$ *<-- sub in $r^n$*
-$r^2 = 2r + 3$ *<-- divide by $r^{n-2}$*
+$r^2 = 2r + 3$ *<-- simplify - divide by $r^{n-2}$*
 $r^2 - 2r - 3 = 0$ *<-- rearrange to equal 0 - form quadratic*
 $(r + 1)(r - 3)$ *<-- Solve quadratic for roots - by hand or using quadratic formula*
 $r = 3$ or $r = -1$
@@ -205,7 +218,6 @@ $a_n =$ your particular solution
 
 Then, substitute it into the full recurrence relation
 Simplify and solve for the constants, substituting them back into the formula
-
 
 
 **Example:**
