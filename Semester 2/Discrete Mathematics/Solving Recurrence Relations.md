@@ -51,7 +51,7 @@ $a_n = a_{n-1} + (n^2)/2 + n$
 **Examples:**
 $a_n = a_{n-1}^2$
 $a_n = a_{n-1}^2 + 1$
-$a_n = a_{n-1} a_{n-2}$
+$a_n = a_{n-1} * a_{n-2}$
 $a_n = 1/a_{n-1}$
 $a_n = \sqrt {a_{n-1}}$
 
@@ -59,7 +59,8 @@ $a_n = \sqrt {a_{n-1}}$
 #### Homogeneous vs Nonhomogeneous
 ##### Homogeneous
 Only dependent on previous terms
-No additional function of $n$
+No additional terms added
+
 
 **Examples:**
 $a_n = 2a_{n-1}$
@@ -71,11 +72,14 @@ $a_n = a_{n-1}^2 + 6a_{n-2}$
 ##### Nonhomogeneous
 Includes $g(n)$, an additional function of $n$
 
+$g(n)$, referred to as a *forcing term*, "forces" the recurrence away from the homogeneous solution
+
 **Examples:**
-$a_n = a_{n-1} + 1$
-$a_n = a_{n-1} + n$
+$a_n = a_{n-1} + 1$ *g(n) = 1*
+$a_n = a_{n-1} + n$ *g(n) = n*
 $a_n = a_{n-1}^2 + 1$
 $a_n = 7a_{n-1} - 5a_{n-2} + 1$
+$a_n = a_{n-1} + 5n^2 + 2n + 1$ *g(n) = 5n^2 + 2n + 1*
 
 
 ### Solving Recurrence Relations
@@ -93,11 +97,14 @@ Is
 $a_n = c * p^n$
 Where $c$ is a constant determined by the initial condition
 
+You can substitute in the known values from the initial condition to find the value of $c$
+
 **Example:**
 $a_n = 2a_{n-1}$
 $a_1 = 1$
 
 $a_n = c * 2^n$
+*Find $c$ by substituting in $a_1 = 1$ and rearranging*
 $1 = c * 2^1$
 $c = 1/2$
 
@@ -119,21 +126,23 @@ $a_n = 3.5^{n-1}$ *<- Simplified*
 #### Second Order Linear Homogeneous
 *Characteristic Equation* - The most important method
 **General Relation Form:**
-$a_n = c a_{n-1} +  d a_{n-2}$
+$a_n = A a_{n-1} +  B a_{n-2}$
 
 **General Solution:**
 The general solution of
-$a_n = c a_{n-1} +  d a_{n-2}$
+$a_n = A a_{n-1} +  B a_{n-2}$
 
 Where $r_1$ and $r_2$ are solutions of the characteristic equation, is
 If $r_1 \neq r2$
-$a_n = c_1 (r_1)^n + c_2 (r_2)^n$
+$a_n = C r_1^n + D r_2^n$
 If $r_1 = r_2$
-$a_n = c_1r_1^n + c_2nr_1^n$
+$a_n = Cr^n + Dnr^n$
 
-Where
-$r^2 + pr + q = 0$
-And $c_1, c_2$ are constants determined by the initial conditions
+Where $r_1, r_2$ are the roots of the quadratic equation
+$t^2 - At - B = 0$
+
+And $C, D$ are constants determined by the initial conditions
+Found by solving the simultaneous equations of the two initial solutions
 
 
 

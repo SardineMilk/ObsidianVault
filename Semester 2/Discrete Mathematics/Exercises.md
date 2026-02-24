@@ -381,3 +381,48 @@ $P(A \cup B) = 0.65 + 0.75 = 1.4$
 $A, B \subset S$
 $P(S) = 1$
 $1.4 > 1$, therefore $A$ and $B$ cannot be mutually exclusive
+
+
+
+##### 3.4.1
+How many ternary (0, 1,2) strings of length $n$ don't have two consecutive 0's?
+
+
+| $n$ | $a_n$ |
+| --- | ----- |
+| 1   | 3     |
+| 2   | 8     |
+| 3   | 22    |
+| 4   | 60    |
+| 5   | 164   |
+| 6   | 448   |
+What is the last character of a string of length $a_n$ ?
+1/2:
+- $2 a_{n-1}$ options for the string
+0:
+- Previous character must be 1/2, or it would be invalid
+- $2a_{n-2}$ options
+
+$a_n = 2 (a_{n-1} + a_{n-2})$
+$a_1 = 3$
+$a_2 = 8$
+
+$a_n = 2a_{n-1} + 2a_{n-2}$
+$t^2 - 2t - 2 = 0$
+$t = 1-\sqrt{3}, 1+\sqrt{3}$
+
+$r = \frac {2 \pm \sqrt{4 + 8}} {2} = 1 \pm \sqrt 3$
+
+$a_n = C(1-\sqrt{3})^n + D(1+\sqrt{3})^n$
+
+$3 = C(1-\sqrt{3}) + D(1+\sqrt{3})^1$
+$8 = C(1-\sqrt{3})^2 + D(1+\sqrt{3})^2$
+
+*just trust me*
+$C = \frac{1}{2} - \frac {1}{2 \sqrt 3}$
+$D = \frac{1}{2} + \frac {1}{2 \sqrt 3}$
+
+$a_n = (\frac{1}{2} - \frac {1}{2 \sqrt 3})(1-\sqrt{3})^n + (\frac{1}{2} + \frac {1}{2 \sqrt 3})(1+\sqrt{3})^n$
+$a_6 = (\frac{1}{2} - \frac {1}{2 \sqrt 3})(1-\sqrt{3})^6 + (\frac{1}{2} + \frac {1}{2 \sqrt 3})(1+\sqrt{3})^6$
+
+*WRONG*
