@@ -19,21 +19,6 @@ Subgraphs
 - Cannot remove endpoints of remaining edges
 	- Each edge must have 2 vertices
 
-### Lecture Notes
-It doesnt matter if theyre straight or not
-
-### Adjacency Matrix
-
-A = 
-1, 2
-3, 4
-
-*Identity matrix*
-I = 
-1 0 0
-0 1 0
-0 0 1
 
 
-Adjacency Matrix
-- $a_{ij}$ = How many connections $i$ has to $j$
+You can represent a graph using an [[Adjacency Matrix]]

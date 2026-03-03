@@ -1,13 +1,14 @@
 Capital letters in latex blocks are sets
 "|" means "such that"
+- used to generate sets
 
 **Set** - an unordered collection of objects
 - $A = \{1, 2, 3\}$
 - $\emptyset = \{\}$
 	- $\emptyset \neq \{\emptyset\}$
 - Can be finite or infinite
-	- $A = \{x | \}$ is an even positive integer and x<10 $= \{2, 4, 6, 8\}$
-	- $A = \{x | \}$ is an even positive integer = \{2, 3, 6, 8, 10, ...\}$ 
+	- $A = \{x |$ x is an even positive integer and x<10$\}$ $= \{2, 4, 6, 8\}$
+	- $A = \{x |$x is an even positive integer$\}$ = \{2, 3, 6, 8, 10, ...\}$ 
 	- [[Number Sets]] are infinite
 	
 **Subset** - set $B$ is a subset of set $A$ if every element of $B$ is also an element of $A$

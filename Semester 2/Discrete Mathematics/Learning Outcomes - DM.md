@@ -2,9 +2,9 @@ Operate with [[Sets|set theory]], functions, or relations to solve various probl
 
 Use elementary  [[Combinatoric Formulas|combinatoric formulas]] to solve counting problems
 
-Use [[Probability Theory|probability theory]] to calculate probabilities in a variety of contexts
+Use [[Probability|probability theory]] to calculate probabilities in a variety of contexts
 
-Use general solutions of standard [[Recurrence Relations|recurrence relations]] to solve various
+Use general solutions of standard [[OLD Recurrence Relations|recurrence relations]] to solve various
 problems
 
 Apply [[Graphs|graph algorithms]] to solve a variety of problems

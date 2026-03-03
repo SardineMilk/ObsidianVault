@@ -383,6 +383,62 @@ $P(S) = 1$
 $1.4 > 1$, therefore $A$ and $B$ cannot be mutually exclusive
 
 
+##### 3.1.1
+Verify that the solution of 
+$a_n = 5a_{n-1} -12$
+$a_1 = 13$
+is
+$a_n = 2(5)^n + 3$
+
+*Prove base case*
+$a_1 = 2(5)^1 + 3 = 10 + 3 = 13$
+$a_1 = 13$ 
+This is true, so the given formula is correct for the initial value
+*Induction step*
+$a_{n+1} = 2(5)^{n+1} + 3$
+$5a_{n} - 12 = 2(5)^{n+1} + 3$
+$5a_{n}= 2(5)^{n+1} + 15$
+$a_{n}= 2(5)^{n} + 3$
+so the given formula is correct
+
+##### 3.1.2
+$x_n = \frac {2nx_{n-1}}{n+1}$
+$x_1 = 1$
+
+a)
+$a_n = (n+1)x_n$
+$a_1 = 2$
+prove
+$a_n = 2a_{n-1}$
+
+
+##### 3.2.1
+$a_n = 6a_{n-1} - 5a_{n-2}$
+$a_1  = 1$
+$a_2 = 41$
+
+$a_n = 6a_{n-1} - 5a_{n-2}$
+$t^2 - 6t + 5 = 0$
+$(t - 5)(t - 1) = 0$
+$r1, r2 = 5, 1$
+$a_n = C(5)^n + D(1)^n$
+
+$1 = C5^1 + D$
+$41 = C5^2 + D$
+
+$1 = 5C + D$
+$41 = 25C + D$
+
+$40 = 20C$
+$C = 2$
+$1 = 5 (2) + D$
+$1 = (10) + D$
+$D = -9$
+
+$a_n = 2 * 5^n - 9$
+
+
+
 
 ##### 3.4.1
 How many ternary (0, 1,2) strings of length $n$ don't have two consecutive 0's?
@@ -407,22 +463,21 @@ $a_n = 2 (a_{n-1} + a_{n-2})$
 $a_1 = 3$
 $a_2 = 8$
 
-$a_n = 2a_{n-1} + 2a_{n-2}$
-$t^2 - 2t - 2 = 0$
-$t = 1-\sqrt{3}, 1+\sqrt{3}$
+$a_3 = 22$
+$a_4 = 60$
+$a_5 = 164$
+$a_6 = 448$
 
-$r = \frac {2 \pm \sqrt{4 + 8}} {2} = 1 \pm \sqrt 3$
+##### 3.42
+How many regions are formed if you draw $n$ lines in a plane
+No 2 lines are parallel
+No 3 lines pass the same point
 
-$a_n = C(1-\sqrt{3})^n + D(1+\sqrt{3})^n$
+$a_1 = 2$
+$a_2 = 4$
 
-$3 = C(1-\sqrt{3}) + D(1+\sqrt{3})^1$
-$8 = C(1-\sqrt{3})^2 + D(1+\sqrt{3})^2$
+$a_3 = 7$
+$a_4 = 11$
 
-*just trust me*
-$C = \frac{1}{2} - \frac {1}{2 \sqrt 3}$
-$D = \frac{1}{2} + \frac {1}{2 \sqrt 3}$
+$a_n = a_{n-1} + n$
 
-$a_n = (\frac{1}{2} - \frac {1}{2 \sqrt 3})(1-\sqrt{3})^n + (\frac{1}{2} + \frac {1}{2 \sqrt 3})(1+\sqrt{3})^n$
-$a_6 = (\frac{1}{2} - \frac {1}{2 \sqrt 3})(1-\sqrt{3})^6 + (\frac{1}{2} + \frac {1}{2 \sqrt 3})(1+\sqrt{3})^6$
-
-*WRONG*

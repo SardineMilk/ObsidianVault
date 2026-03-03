@@ -1,132 +1,315 @@
-Geometric
-- depends on $a_{n-1}$ or similar
-Algebraic
-- Doesn't
-- Also called *Closed Form*
-### Closed Form
-Represent a recurrence relation in terms of $n$, without $n{-1}$ of similar
-Not all recurrence relations have this form
+### What is a Recurrence Relation?
+Any recurrence relation can be expressed like this:
+$a_n = f(a_{n-1}, a_{n-2}, \dots, a_1, a_0)$
+Not all terms must be used by the function.
+Most recurrence relations use one or two.
+The number of terms used in the function is called the *order* of the recurrence relation.
+- This will sometimes be referred to as $k$ in these notes, for clarity
 
-**Example**
-$a_n = 2a_{n-1} + 1,  n \geq 2$
+The value used for the first values of the sequence will affect all other values in the sequence.
+These are called the *initial conditions*
+There are $k$ initial conditions for each sequence
+- This is simpler than it sounds, try to understand it intuitively
+
+> A recurrence relation defines a sequence, where the value of the $n_{th}$ term depends on $k$ preceding terms, and the initial $k$ terms.
+
+**Examples:**
+$a_n = 2a_{n-1} + 1$ 
 $a_1 = 1$
-Verify the solution is $a_n = 2^n - 1$
+*This is a simple recurrence relation, with an order of 1, and an initial condition of $a_1 = 1$*
 
-$n = 1,$ 
-$a_1 = 2 - 1$
-$= 1$
-This is true, so $a_n = 2^n$ matches the recurrence relation for the base case of $n=1$
-
-$n \geq 2$
-$a_{n-1} = 2^{n-1} - 1$ *closed form for n-1*
-$a_{n} = 2 * (2^{n-1} -1) + 1$ *sub it into n-1 in the recurrence relation for n*
-$= 2^n - 2 + 1$ *simplify*
-$= 2^n - 1$ *show it is equal to closed form for n*
-
-**Example**
-$a_{n+1} = 1.04 * a_n$
-Closed form:
-$a_{n+1} = a_1 * 1.04^n$
-
-**Example**
-Tower of Hanoi
-
-Let $a_n$ be the minimal number of moves to solve the puzzle with $n$ disks
-
-To move $n$:
-Move $n-1$ to $B$
-Move $n$'th to $C$
-Move $n-1$ to $C$
-$a_n = a_{n-1} + 1 + a_{n-1}$
-
-$a_n = a_{n-1} + 1 + a_{n-1}$
-$a_n = 2(a_{n-1}) + 1$
-$a_n = 2^m - 1$
-
-**Example**
-Climb a set of $n$ stairs, taking either 1 or 2 at a time
-
-1: 1
-2: 2
-3: 3
-
-$a_n = a_{n-1} * 1 + a_{n-2} * 1$
 $a_n = a_{n-1} + a_{n-2}$
-
-### Linear and Homogeneous
-#### Linear
-No powers
-
-$a_n = 2 a_{n-1} + 1$
-$b_n = 5 b_{n-1} - 2 b_{n-2}$
-
-#### Homogeneous
-$a_n = 0.5 a_{n-1}$
-
-Only multiples of $a_n-1$, $a_{n-2}$ etc
+$a_1 = 1$
+$a_2 = 1$
+*A famous recurrence relation called the Fibonacci Sequence. It has an order of 2, and the initial conditions $a_1 = 1, a_2 = 1$. If you change these initial conditions, the entire sequence changes*
 
 
-#### Solving Homogeneous
-Consider the geometric sequence
-$a_n = p a_{n-1}$
-$a_0, p a_0, p^2 a_0, p^3 a_0, ...$
-where $a_0$ is the initial condition, $a_0 = c$
+### Types of Recurrence Relation
+#### Linear vs Nonlinear
+##### Linear
+A recurrence is *linear* if each previous term has no powers and is not multiplied by previous terms
+These are more common, and easier to solve
+
+**General Form:**
+$a_n = c_1 a_{n-1} +  c_2 a_{n-2} + \dots +  c_k a_{n-k} + g(n)$
+The $c$ terms are constants
+$g(n)$ is any value not dependant on previous terms
+- This may be 0
+- It may also be dependant on $n$
+
+**Examples:**
+$a_n = 2a_{n-1}$
+$a_n = 2a_{n-1} + 1$
+$a_n = 2a_{n-1} + 3a_{n-2}$
+$a_n = 7a_{n-1} - 5a_{n-2} + 1$
+$a_n = 1.5a_{n-1} - a_{n-2} + n$
+$a_n = a_{n-1} + (n^2)/2 + n$
+
+##### Nonlinear
+*Nonlinear* recurrences have previous terms combined using multiplication, powers, roots etc.
+
+**Examples:**
+$a_n = a_{n-1}^2$
+$a_n = a_{n-1}^2 + 1$
+$a_n = a_{n-1} * a_{n-2}$
+$a_n = 1/a_{n-1}$
+$a_n = \sqrt {a_{n-1}}$
+
+
+#### Homogeneous vs Nonhomogeneous
+##### Homogeneous
+Only dependent on previous terms
+No additional terms added
+
+
+**Examples:**
+$a_n = 2a_{n-1}$
+$a_n = 2a_{n-1} + 3a_{n-2}$
+$a_n = a_{n-1}^2$
+$a_n = a_{n-1} a_{n-2}$
+$a_n = a_{n-1}^2 + 6a_{n-2}$
+
+##### Nonhomogeneous
+Includes $g(n)$, an additional function of $n$
+
+$g(n)$, referred to as a *forcing term*, "forces" the recurrence away from the homogeneous solution
+
+**Examples:**
+$a_n = a_{n-1} + 1$ *g(n) = 1*
+$a_n = a_{n-1} + n$ *g(n) = n*
+$a_n = a_{n-1}^2 + 1$
+$a_n = 7a_{n-1} - 5a_{n-2} + 1$
+$a_n = a_{n-1} + 5n^2 + 2n + 1$ *g(n) = 5n^2 + 2n + 1*
+
+
+### Solving Recurrence Relations
+Solving recurrences can be difficult
+There are different techniques for different types of recurrence relation
+
+#### First Order Linear Homogeneous
+**General Relation Form:**
+$a_n = p * a_{n-1}$
+
+**General Solution:**
+The general solution of
+$a_n = p * a_{n-1}$
+Is
 $a_n = c * p^n$
+Where $c$ is a constant determined by the initial condition
+
+You can substitute in the known values from the initial condition to find the value of $c$
+
+**Example:**
+$a_n = 2a_{n-1}$
+$a_1 = 1$
+
+$a_n = c * 2^n$
+*Find $c$ by substituting in $a_1 = 1$ and rearranging*
+$1 = c * 2^1$
+$c = 1/2$
+
+$a_n = 1/2 * 2^n$
+
+**Example:**
+$a_n = (3.5)a_{n-1}$ 
+$a_1 = 1$
+
+$a_n = c * 3.5^n$
+$a_1 = c * 3.5^1$
+$1 = c * 3.5$
+$c = 1/3.5$
+
+$a_n = (1/3.5) * (3.5^n)$
+$a_n = 3.5^{n-1}$ *<- Simplified*
 
 
-Relations of the form $a_n = 7a_{n-1} - 12a_{n-2}$
-assume $a_n = r^n$ is a solution
-$r_n = 7 r^{n-1} - 12 r^{n-2}$
-$r^2 = 7r - 12$ *dividing by $r^{n-2}$*
-$r^2 - 7r + 12 = 0$
-$(r - 4)(r-3) = 0$
-$r = 4$ or $r = 3$
+#### Second Order Linear Homogeneous
+*Characteristic Equation* - The most important method
+**General Relation Form:**
+$a_n = A a_{n-1} +  B a_{n-2}$
+
+**General Solution:**
+The general solution of
+$a_n = A a_{n-1} +  B a_{n-2}$
+
+Where $r_1$ and $r_2$ are solutions of the characteristic equation, is
+If $r_1 \neq r2$
+$a_n = C r_1^n + D r_2^n$
+If $r_1 = r_2$
+$a_n = Cr^n + Dnr^n$
+
+Where $r_1, r_2$ are the roots of the quadratic equation
+$t^2 - At - B = 0$
+
+And $C, D$ are constants determined by the initial conditions
+Found by solving the simultaneous equations of the two initial solutions
+
+
+
+Steps: Assume $a_n = r^n$, Factor, Roots, General solution, Find constants, Specific solution
+
+**Example:**
+$a_n = 2a_{n-1} + 3a_{n-2}$
+$a_1 = 1, a_2 = 2$
+
+*1. Assume $a_n = r^n$*
+
+*2. Form characteristic equation*
+$r^n = 2(r^{n-1}) + 3(r^{n-2})$ *<-- sub in $r^n$*
+$r^2 = 2r + 3$ *<-- simplify - divide by $r^{n-2}$*
+$r^2 - 2r - 3 = 0$ *<-- rearrange to equal 0 - form quadratic*
+$(r + 1)(r - 3)$ *<-- Solve quadratic for roots - by hand or using quadratic formula*
+$r = 3$ or $r = -1$
+
+*3. Form general solution*
+$a_n = c_1 * 3^n + c_2 * (-1)^n$ *<-- $c_1, c_2 \in \mathbb{R}$, constants*
+*Simplify here if able*
+
+*4. Use initial conditions to find the constants*
+$a_1 = 1$
+$a_1 = c_1 * 3^1 + c_2 * (-1)^1$ 
+$1 = 3c_1 - c_2$
+
+$a_2 = 2$
+$a_2 = c_1 * 3^2 + c_2 * (-1)^2$ 
+$2 = 9c_1 + c_2$
+
+*Add the first equation to the second (or subtract the first from the second, whatever's easier)*
+$(9c_1 + c_2) + (3c_1 - c_2) = 2 + 1$
+$12c_1 = 3$
+$c_1 = 3/12 = 1/4$
+*Substitute into first equation*
+$1 = 3c_1 - c_2$
+$1 = 3/4 + c_2$
+$c_2 = -1/4$
+
+*5. Form specific solution*
+*Substitute in constants to general formula*
+$a_n = c_1 * 3^n + c_2 * (-1)^n$
+$c_1 = 1/4$
+$c_2 = -1/4$
+*Final answer:*
+$a_n = 1/4 * 3^n - 1/4 * (-1)^n$
+
+
+#### Linear Nonhomogeneous
+A linear nonhomogenous recurrence is essentially a linear homogeneous relation with a *forcing function* $g(n)$ added that "forces" the sequence away from the homogeneous solution
+
+**General Form:**
+$a_n​=c_1​a_{n−1}​+c_2​a_{n−2}​+\dots+g(n)$
+
+To solve these recurrences:
+Solve the homogeneous portion of the recurrence
+Guess a particular solution based on the forcing term
+Add them together to find the general solution of the nonhomogeneous recurrence
+Apply the initial conditions
+
+
+*Step 1: Solve the homogeneous part*
+*Step 2: Find a particular solution*
+*Step 3: Combine homogeneous and particular solutions*
+*Step 4: Use initial condition(s) to find final solutions*
+
+
+**Finding a particular solution**
+First, look at the type of $g(n)$
+
+| $g(n)$                  | Trial Particular Solution |
+| ----------------------- | ------------------------- |
+| Constant <br>$c$        | $p$                       |
+| Linear<br>$c_1 n + c_2$ | $p n + q$                 |
+| Exponential <br>$c^n$   | $p * c^n$                 |
+Pick the form suggested by the table
+Check for overlap with the homogeneous solution
+If your trial solution duplicates a term in the homogeneous solution, multiply your trial solution by $n$ until it no longer overlaps
+
+$a_n =$ your particular solution
+
+Then, substitute it into the full recurrence relation
+Simplify and solve for the constants, substituting them back into the formula
+
+
+**Example:**
+$a_n = 2a_{n-1} + 3^n$
+$a_1 = 1$
+
+*Step 1: Solve the homogeneous part*
+$a_n^{(h)} = 2a_{n-1}$
+$a_n^{(h)} = C * 2^n$ *General solution for a first-order linear homogeneous relation*
+
+*Step 2: Find a particular solution*
+$g(n) = 3^n$
+$a_n = p * 3^n$ *Solution for an exponential forcing function*
+*Substitute into recurrence*
+$[p * 3^n] = 2[p * 3^{n-1}] + 3^n$
+*Simplify - divide by $3^{n-1}$*
+$3p = 2p + 3$
+$p = 3$
 So
-$a_n = 3^n$ and $a_n = 4^n$
-so
-$a_n = c*3^n + d * 4^n$
-where $c, d \in \mathbb{R}$ (constants)
+$a_n^{(p)} = 3 * 3^n$
 
-In general, when the characteristic equation has two distinct real solutions
-The general solution of 
-$a_n = p a_{n-1} + q a_{n-2}$
-is
-$a_n = c(r_1)^n + d(r_2)^n$
+*Step 3: Combine homogeneous and particular solutions*
+$a_n^{(h)} = C * 2^n$
+$a_n^{(p)} = 3 * 3^n$
 
-Where $r_1, r_2$ are solutions of the characteristic equation $r^2 = pr + q$
-and $c, d$ are constants determined by the initial conditions
+$a_n = a_n^{(h)} + a_n^{(p)}$
+$a_n = C * 2^n + 3 * 3^n$
 
+*Step 4: Use initial condition(s)*
+$a_n = C * 2^n + 3 * 3^n$
+$a_1 = 1$
 
-If the char equ has a repeated root, $r = r_1$
-then the general solution of the RR $a_n = p a_{n-1} + q a_{n-2}$
-is
-$a_n = c * {r_1}^n + d * n * {r_1}^n$
+$1 = C * 2^1 + 3 * 3^1$
+$1 = C * 2 + 9$
+$C = -8/2$
+$C = -4$
 
-
-#### Solving Inhomogeneous Recurrence relations
-Involves a term free of $a_{n-x}$
-Example: $a_n = 4 a_{n-1} - 15$
-
-**Solving:**
-*Find the general solution of the homogeneous r.r*
-$a_n = 4 a_{n-1}$
-
-*Find a particular solution of the same form as the homogeneous solution*
-(Make an educated guess of what might be a solution)
-
-(sub into r.r)
-$p = 4p - 15$
--15 is constant so take
-$a_n = p, p \in \mathbb{R}$
-$p = 5$
-so $a_n = 5$
-
-*Add the solutions from parts 1 and 2*
-$a_n = c * 4^n + 5$
-
-**Example**
-$a_n = 3 a_{n-1} + 9 - 2_n$
-
-*find homogeneous solution*
+$a_n = C * 2^n + 3 * 3^n$
+$a_n = -4 * 2^n + 3 * 3^n$
 
 
+**Example with duplication:**
+$a_n = 2a_{n-1} + 2^n$
+$a_1 = 1$
+
+*Step 1: Solve homogeneous part*
+$a_n^{(h)} = 2a_{n-1}$
+$a_n^{(h)} = C * 2^n$
+
+*Step 2: Find a particular solution*
+$g(n) = 2^n$
+*Trial particular solution from table*
+$a_n^{(p)} = D * 2^n$
+*This is already in the homogeneous solution, so multiply by $n$*
+$a_n^{(p)} = D * n * 2^n$
+*Substitute into full recurrence*
+$a_n = 2a_{n-1} + 2^n$
+$[D * n * 2^n] = [D * (n-1) * 2^{n-1}] + 2^n$
+*Simplify - divide both sides by $2^n$*
+$Dn = D(n-1) + 1$
+$Dn = Dn - D + 1$
+$0 = -D + 1$
+$D = 1$
+*Substitute into particular solution*
+$a_n^{(p)} = D * n * 2^n$
+$a_n^{(p)} = n * 2^n$
+
+*Step 3: Combine solutions*
+$a_n^{(h)} = C * 2^n$
+$a_n^{(p)} = n * 2^n$
+
+$a_n = a_n^{(h)} + a_n^{(p)}$
+$a_n = C * 2^n + n * 2^n$
+$a_n = (C + n)2^n$
+
+*Step 4: Use initial condition(s)*
+$a_1 = 1$
+$a_n = (C + n)2^n$
+
+*Solve using initial condition(s) to find constant*
+$1 = (C+1)2^1$
+$C+1 = 1/2$
+$C = -1/2$
+
+*Final solution:*
+$a_n = (n - 1/2) * 2^n$
