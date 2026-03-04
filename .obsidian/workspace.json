@@ -8,63 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "057a45817ab3f241",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Semester 2/Discrete Mathematics/Discrete Mathematics.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Discrete Mathematics"
-            }
-          },
-          {
-            "id": "8734286c30bd366f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Semester 2/Discrete Mathematics/Dijkstra's Algorithm.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Dijkstra's Algorithm"
-            }
-          },
-          {
-            "id": "5976580bc3053e94",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Semester 2/Discrete Mathematics/Graphs.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Graphs"
-            }
-          },
-          {
-            "id": "9edd7a571e3649dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Semester 2/Discrete Mathematics/Adjacency Matrix.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Adjacency Matrix"
-            }
-          },
-          {
-            "id": "9d9531f47e5b1244",
+            "id": "e1e634c691fd807a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,7 +22,7 @@
             }
           },
           {
-            "id": "b6b2f052b7a06974",
+            "id": "9bce6a1742aa380a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -90,9 +34,79 @@
               "icon": "lucide-file",
               "title": "Connectivity"
             }
+          },
+          {
+            "id": "f350450e30a8ded0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Semester 2/Web Design + Databases/Conceptual vs Logical Database Design.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Conceptual vs Logical Database Design"
+            }
+          },
+          {
+            "id": "81742718fc355f1e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Semester 2/Web Design + Databases/Relational Data Model.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Relational Data Model"
+            }
+          },
+          {
+            "id": "f772972ea9df6879",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Semester 2/Computer Systems/Pipelining.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Pipelining"
+            }
+          },
+          {
+            "id": "630d8780fd0e466a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Semester 2/Web Design + Databases/Entity Relationship Modelling.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Entity Relationship Modelling"
+            }
+          },
+          {
+            "id": "09e8ecc45bef3c43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Semester 2/Computer Systems/Input-Output Architecture.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Input-Output Architecture"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -238,91 +252,53 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "floating": {
-    "id": "69fed6bd7f2169d9",
-    "type": "floating",
-    "children": [
-      {
-        "id": "ca273a2f42201fc4",
-        "type": "window",
-        "children": [
-          {
-            "id": "618df7c74ff5ad4d",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "977aea72373a4596",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Semester 2/Discrete Mathematics/Recurrence Relations.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Recurrence Relations"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 754,
-        "y": 402,
-        "width": 600,
-        "height": 600,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "9edd7a571e3649dc",
+  "active": "6e90b57a91d12d5a",
   "lastOpenFiles": [
-    "Semester 2/Discrete Mathematics/Graphs.md",
-    "Semester 2/Discrete Mathematics/Dijkstra's Algorithm.md",
-    "Semester 2/Discrete Mathematics/Drawings/example_weighted_graph.png",
-    "Semester 2/Discrete Mathematics/Adjacency Matrix.md",
-    "Semester 2/Discrete Mathematics/Discrete Mathematics.md",
-    "Semester 2/Discrete Mathematics/Drawings/example_graph.png",
-    "Semester 2/Discrete Mathematics/Directed Graphs.md",
+    "Semester 2/Computer Systems/Pipelining.md",
+    "Semester 2/Computer Systems/Input-Output Architecture.md",
+    "Semester 2/Web Design + Databases/Relational Data Model.md",
+    "Semester 2/Web Design + Databases/Entity Relationship Modelling.md",
+    "Pasted image 20260304093118.png",
+    "Semester 2/Web Design + Databases/Conceptual vs Logical Database Design.md",
+    "Semester 2/Web Design + Databases/ER-Diagram-Example.png",
     "Semester 2/Discrete Mathematics/Connectivity.md",
-    "Semester 2/Discrete Mathematics/Learning Outcomes - DM.md",
-    "Semester 2/Discrete Mathematics/Probability.md",
-    "Semester 2/Complaint.md",
-    "Semester 2/Discrete Mathematics/Past Papers/2021.md",
+    "Semester 2/Discrete Mathematics/Directed Graphs.md",
+    "Semester 2/Discrete Mathematics/Discrete Mathematics.md",
+    "Semester 2/Discrete Mathematics/Graphs.md",
     "Semester 2/Second Order Linear Homogeneous Intuition.md",
-    "Untitled.md",
-    "Semester 2/Discrete Mathematics/Permutations.md",
-    "Semester 2/Discrete Mathematics/Exercises.md",
-    "Semester 2/Discrete Mathematics/Recurrence Relations.md",
-    "Semester 2/Discrete Mathematics/Sets.md",
-    "Semester 2/Discrete Mathematics/Solving Linear Nonhomogeneous Recurrences.md",
     "Semester 2/Discrete Mathematics/OLD Recurrence Relations.md",
+    "Semester 2/Discrete Mathematics/Drawings/example_weighted_graph.png",
+    "Semester 2/Discrete Mathematics/Drawings/example_graph.png",
+    "Semester 2/Discrete Mathematics/Dijkstra's Algorithm.md",
+    "Semester 2/Discrete Mathematics/Adjacency Matrix.md",
+    "Semester 2/Computer Systems/Assembly.md",
+    "Semester 2/Complaint.md",
+    "Matrices.md",
+    "Second Order Linear Homogeneous Intuition.md",
+    "Assembly.md",
+    "Semester 2/Software Development 2/Databases.md",
     "Semester 2/Web Design + Databases/Pasted image 20260225091548.png",
     "Semester 2/Web Design + Databases/Pasted image 20260225091529.png",
-    "Semester 2/Web Design + Databases/Entity Relationship Modelling.md",
     "Semester 2/Software Development 2/Python.md",
-    "Semester 2/Software Development 2/Databases.md",
-    "Semester 2/Computer Systems/Assembly.md",
+    "Excalidraw/Drawing 2026-02-24 12.36.57.excalidraw.md",
+    "Excalidraw",
+    "Semester 2/Discrete Mathematics/Solving Recurrence Relations.md",
+    "Complaint.md",
+    "Semester 2/Discrete Mathematics/Solving Linear Nonhomogeneous Recurrences.md",
     "Semester 2/Discrete Mathematics/Pasted image 20260215191220.png",
     "Pasted image 20260215191150.png",
     "Pasted image 20260215164858.png",
+    "Semester 2/Discrete Mathematics/Recurrence Relations.md",
     "Semester 2/Web Design + Databases/Multiple Device Screens.md",
-    "Semester 2/Computer Systems/Revision Lecture.md",
-    "Semester 2/Software Development 2/Parametric Polymorphism.md",
     "Semester 2/Discrete Mathematics/Drawings/equivalence-relation.png",
     "Semester 2/Discrete Mathematics/Past Papers",
-    "Semester 2/Discrete Mathematics/Drawings/antisymmetric_relation.png",
     "Semester 2/Discrete Mathematics/Drawings",
-    "Semester 2/Discrete Mathematics/Drawings/transitive_relation.png",
     "Semester 2/Excalidraw",
     "Semester 2/Discrete Mathematics/Challenges",
     "Semester 2/Discrete Mathematics/Tutorials",
     "Semester 2/Discrete Mathematics/Exercises",
     "Semester 2/Computer Systems",
     "Semester 2/Web Design + Databases",
-    "Semester 2",
-    "Semester 1"
+    "Semester 2"
   ]
 }

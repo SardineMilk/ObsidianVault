@@ -1,3 +1,5 @@
+
+![[ER-Diagram-Example.png]]
 Conceptual Database Design
 
 ER Diagrams
@@ -71,5 +73,16 @@ Partial Participation
 - Not all entities must participate in relationship
 - Cardinality lower bound of 0
 Total Participation
-- Each entity in the set must particiapate
+- Each entity in the set must participate
 - Lower bound of 1
+
+Entities can be *specialised or generalised*
+- Super-types and sub-types
+- Simple OOP
+- Employee -> Secretary, Manager, Engineer
+- Mandatory/Optional 
+	- The superclass can be abstract
+		- An employee must be salaried or hourly-paid
+		- An employee can be an employee or a specialisation
+- AND/OR
+	- Can the specialisation use multiple or just one
