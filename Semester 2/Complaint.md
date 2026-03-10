@@ -9,7 +9,7 @@ The stated process is:
 If the chosen particular solution overlaps with the homogeneous solution (duplicating a term),
 it must be adjusted by multiplying by $n$ until it no longer overlaps.
 I don't think this process is adequately explained in the lecture notes:
-![[Pasted image 20260215191220.png]]
+![[bad-lecture-notes.png]]
 The notes simply state "this doesn't work for this relation, multiply it by $n$", without explaining why or how. I had to do my own research to learn this concept.
 
 Additionally, the order of finding a particular solution and then finding the general solution of the homogeneous part mean it is impossible to know if there is a duplicated term until later in the process.

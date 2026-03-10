@@ -67,8 +67,20 @@ No Content - Consolidation Week
 [[Weighted Graphs]]
 [[Dijkstra's Algorithm]]
 
-##### 4.6
+##### 4.6, 4.7
 [[Trees]]
+
+##### 4.8
+[[Spanning Trees]]
+[[Prim's Algorithm]]
+[[Kruskal's Algorithm]]
+
+##### 4.9
+[[Euler Paths]]
+
+##### 4.10
+[[Hamilton Paths]]
+
 
 ### Exercises
 [[Exercises]]
@@ -80,3 +92,4 @@ No Content - Consolidation Week
 [[Tutorial 4]]
 [[Tutorial 5]]
 [[Tutorial 6]]
+[[Tutorial 7]]

@@ -22,4 +22,16 @@ Comb out all the tangles
 
 A **forest** is a graph where every connected component is a tree
 The **root** is the origin of the tree
-**Leaves** are vertices of degree 1, the ends of the graph. The root is not a leaf
+**Leaves** are vertices of degree one, the ends of the graph. The root is not a leaf
+
+### Full Trees
+A tree is called a full m-ary tree (binary for m = 2, ternary for
+m = 3) if each internal vertex except for the root has degree m + 1 and the root
+vertex has degree m.
+
+**Example:**
+In a full binary tree:
+- The root has degree 2
+- Each internal vertex has degree 3
+
+Property: In a full binary tree, $L = I + 1$

@@ -8,49 +8,49 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e1e634c691fd807a",
+            "id": "057a45817ab3f241",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 2/Discrete Mathematics/Directed Graphs.md",
+                "file": "Semester 2/Discrete Mathematics/Discrete Mathematics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Directed Graphs"
+              "title": "Discrete Mathematics"
             }
           },
           {
-            "id": "9bce6a1742aa380a",
+            "id": "e7c018f2f55be99e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 2/Discrete Mathematics/Weighted Graphs.md",
+                "file": "Semester 2/Discrete Mathematics/Spanning Trees.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Weighted Graphs"
+              "title": "Spanning Trees"
             }
           },
           {
-            "id": "7583bdf6626ca5ce",
+            "id": "5976580bc3053e94",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 2/Discrete Mathematics/Dijkstra's Algorithm.md",
+                "file": "Semester 2/Discrete Mathematics/Graphs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dijkstra's Algorithm"
+              "title": "Graphs"
             }
           },
           {
-            "id": "638452ec8aa13942",
+            "id": "40a1a328b09b1ad7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -64,7 +64,7 @@
             }
           },
           {
-            "id": "6a270c0826830142",
+            "id": "9edd7a571e3649dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -76,9 +76,37 @@
               "icon": "lucide-file",
               "title": "Tutorial 7"
             }
+          },
+          {
+            "id": "9d9531f47e5b1244",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Semester 2/Discrete Mathematics/Directed Graphs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Directed Graphs"
+            }
+          },
+          {
+            "id": "b6b2f052b7a06974",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Semester 2/Discrete Mathematics/Connectivity.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Connectivity"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -135,8 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227.5078125,
-    "collapsed": true
+    "width": 227.5078125
   },
   "right": {
     "id": "6fc808674965d1be",
@@ -225,42 +252,42 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "638452ec8aa13942",
+  "active": "9edd7a571e3649dc",
   "lastOpenFiles": [
-    "Semester 2/Discrete Mathematics/Pasted image 20260215191220.png",
-    "Semester 2/Discrete Mathematics/Trees.md",
-    "Pasted image 20260305121612.png",
+    "Semester 2/Discrete Mathematics/Spanning Trees.md",
+    "Untitled.md",
+    "Semester 2/Discrete Mathematics/Drawings/spanning-trees.png",
+    "Semester 2/Discrete Mathematics/Drawings/dijkstra-code.png",
+    "Semester 2/Discrete Mathematics/Drawings/bad-lecture-notes.png",
     "Semester 2/Discrete Mathematics/Discrete Mathematics.md",
+    "Semester 2/Discrete Mathematics/Trees.md",
+    "Semester 2/Discrete Mathematics/Tutorials/Tutorial 3.md",
+    "Semester 2/Discrete Mathematics/Past Papers/Sample Test 2.md",
     "Semester 2/Discrete Mathematics/Dijkstra's Algorithm.md",
-    "Semester 2/Discrete Mathematics/Directed Graphs.md",
-    "Semester 2/Discrete Mathematics/Tutorials/Tutorial 7.md",
-    "Semester 2/Discrete Mathematics/Weighted Graphs.md",
-    "Semester 2/Discrete Mathematics/Connectivity.md",
-    "Semester 2/Computer Systems/Input-Output Architecture.md",
-    "Semester 2/Computer Systems/Pipelining.md",
-    "Semester 2/Web Design + Databases/Relational Data Model.md",
-    "Semester 2/Web Design + Databases/Entity Relationship Modelling.md",
-    "Pasted image 20260304093118.png",
-    "Semester 2/Web Design + Databases/Conceptual vs Logical Database Design.md",
-    "Semester 2/Web Design + Databases/ER-Diagram-Example.png",
+    "Semester 2/Discrete Mathematics/Tutorial 2.md",
     "Semester 2/Discrete Mathematics/Graphs.md",
-    "Semester 2/Second Order Linear Homogeneous Intuition.md",
-    "Semester 2/Discrete Mathematics/OLD Recurrence Relations.md",
+    "Semester 2/Discrete Mathematics/Relations.md",
+    "Semester 2/Discrete Mathematics/Tutorials/Tutorial 1.md",
+    "Semester 2/Discrete Mathematics/Tutorials/Tutorial 7.md",
+    "Semester 2/Discrete Mathematics/Adjacency Matrix.md",
+    "Semester 2/Discrete Mathematics/Weighted Graphs.md",
+    "Semester 2/Web Design + Databases/Relational Data Model.md",
+    "Semester 2/Web Design + Databases/ER-Diagram-Example.png",
+    "Semester 2/Web Design + Databases/Conceptual vs Logical Database Design.md",
+    "Semester 2/Computer Systems/Pipelining.md",
+    "Semester 2/Computer Systems/Input-Output Architecture.md",
+    "Semester 2/Discrete Mathematics/Recurrence Relations.md",
     "Semester 2/Discrete Mathematics/Drawings/example_weighted_graph.png",
     "Semester 2/Discrete Mathematics/Drawings/example_graph.png",
-    "Semester 2/Discrete Mathematics/Adjacency Matrix.md",
-    "Semester 2/Computer Systems/Assembly.md",
+    "Semester 2/Discrete Mathematics/Directed Graphs.md",
+    "Semester 2/Discrete Mathematics/Connectivity.md",
+    "Semester 2/Discrete Mathematics/Learning Outcomes - DM.md",
+    "Semester 2/Discrete Mathematics/Probability.md",
     "Semester 2/Complaint.md",
-    "Matrices.md",
-    "Second Order Linear Homogeneous Intuition.md",
-    "Assembly.md",
-    "Semester 2/Software Development 2/Databases.md",
+    "Semester 2/Discrete Mathematics/Past Papers/2021.md",
+    "Semester 2/Second Order Linear Homogeneous Intuition.md",
     "Semester 2/Web Design + Databases/Pasted image 20260225091548.png",
     "Semester 2/Web Design + Databases/Pasted image 20260225091529.png",
-    "Semester 2/Software Development 2/Python.md",
-    "Excalidraw/Drawing 2026-02-24 12.36.57.excalidraw.md",
-    "Excalidraw",
-    "Semester 2/Discrete Mathematics/Solving Recurrence Relations.md",
     "Pasted image 20260215191150.png",
     "Pasted image 20260215164858.png",
     "Semester 2/Discrete Mathematics/Past Papers",
@@ -271,6 +298,7 @@
     "Semester 2/Discrete Mathematics/Exercises",
     "Semester 2/Computer Systems",
     "Semester 2/Web Design + Databases",
-    "Semester 2"
+    "Semester 2",
+    "Semester 1"
   ]
 }

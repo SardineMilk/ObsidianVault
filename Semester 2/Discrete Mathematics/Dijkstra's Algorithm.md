@@ -17,7 +17,7 @@ If $v$ is explored, you know $L(v)$ is the smallest possible length
 If you want to find the vertices on the shortest path,
 Keep another array that stores, for each vertex, the index of the vertex the shortest path was last updated by.
 You can think of this like an arrow pointing backwards along the shortest path
-To find the vertices of the shortest path, traverse backwards from the end vertex along these arrows2
+To find the vertices of the shortest path, traverse backwards from the end vertex along these arrows
 
 ##### Loop until all vertices explored:
 Choose the unexplored vertex with the lowest weight
