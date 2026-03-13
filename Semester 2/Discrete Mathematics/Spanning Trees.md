@@ -28,3 +28,28 @@ Start with vertex 1
 Iterate until all vertices added
 	Add vertex adjacent to vertices already in the tree, as long as it doesn't form a simple circuit
 	If this isn't possible, backtrack until it is, then branch 
+
+### Minimum Spanning Trees
+Spanning tree of weighted graph $G$ with the smallest possible weight
+
+You need to know two ways of finding MST's:
+
+
+#### Kruskal's Algorithm
+Step 1:
+Put any edge with the smallest weight into the spanning tree $T$
+
+Step 2:
+Add any edge of minimum weight that does not form a simple circuit with $T$
+
+Repeat until $n-1$ edges are in $T$
+
+
+#### Prim's Algorithm
+Step 1:
+Put any edge with the smallest weight into the spanning tree $T$
+
+Step 2:
+Add any edge of minimum weight *adjacent to a vertex in $T$* that does not form a simple circuit with $T$
+
+Repeat until $n-1$ edges are in $T$

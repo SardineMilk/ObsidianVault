@@ -72,8 +72,6 @@ No Content - Consolidation Week
 
 ##### 4.8
 [[Spanning Trees]]
-[[Prim's Algorithm]]
-[[Kruskal's Algorithm]]
 
 ##### 4.9
 [[Euler Paths+Circuits]]
