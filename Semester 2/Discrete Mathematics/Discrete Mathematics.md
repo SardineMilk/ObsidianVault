@@ -76,10 +76,10 @@ No Content - Consolidation Week
 [[Kruskal's Algorithm]]
 
 ##### 4.9
-[[Euler Paths]]
+[[Euler Paths+Circuits]]
 
 ##### 4.10
-[[Hamilton Paths]]
+[[Hamilton Paths+Circuits]]
 
 
 ### Exercises

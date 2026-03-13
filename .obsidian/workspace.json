@@ -8,20 +8,49 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0f8c72e33d1a18e3",
+            "id": "d4a5fc2f24628332",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 2/Computer Systems/Memory Systems.md",
+                "file": "Euler Paths+Circuits.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Memory Systems"
+              "title": "Euler Paths+Circuits"
+            }
+          },
+          {
+            "id": "c7d548245d0e02f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hamilton Paths+Circuits.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Hamilton Paths+Circuits"
+            }
+          },
+          {
+            "id": "b591a0bc58ccdf3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Semester 2/Discrete Mathematics/Spanning Trees.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Spanning Trees"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227.5078125,
-    "collapsed": true
+    "width": 227.5078125
   },
   "right": {
     "id": "6fc808674965d1be",
@@ -168,22 +196,24 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "0f8c72e33d1a18e3",
+  "active": "c7d548245d0e02f1",
   "lastOpenFiles": [
+    "Euler Paths+Circuits.md",
+    "Semester 2/Discrete Mathematics/Spanning Trees.md",
+    "Semester 2/Discrete Mathematics/Discrete Mathematics.md",
+    "Hamilton Paths+Circuits.md",
     "Semester 2/Computer Systems/Memory Systems.md",
     "Semester 2/Discrete Mathematics/Tutorials/Tutorial 7.md",
     "Semester 2/Discrete Mathematics/Trees.md",
     "Semester 2/Web Design + Databases/Database Constraints.md",
     "Semester 2/Discrete Mathematics/Tutorials/Tutorial 3.md",
     "Semester 2/Discrete Mathematics/Tutorial 2.md",
-    "Semester 2/Discrete Mathematics/Spanning Trees.md",
     "Semester 2/Discrete Mathematics/Past Papers/Sample Test 2.md",
     "Semester 2/Discrete Mathematics/Drawings/spanning-trees.png",
     "Semester 2/Discrete Mathematics/Drawings/dijkstra-code.png",
     "Semester 2/Discrete Mathematics/Drawings/bad-lecture-notes.png",
     "Semester 2/Discrete Mathematics/Pasted image 20260215191220.png",
     "Pasted image 20260305121612.png",
-    "Semester 2/Discrete Mathematics/Discrete Mathematics.md",
     "Semester 2/Discrete Mathematics/Dijkstra's Algorithm.md",
     "Semester 2/Discrete Mathematics/Directed Graphs.md",
     "Semester 2/Discrete Mathematics/Weighted Graphs.md",
@@ -203,8 +233,6 @@
     "Semester 2/Discrete Mathematics/Adjacency Matrix.md",
     "Semester 2/Computer Systems/Assembly.md",
     "Semester 2/Complaint.md",
-    "Matrices.md",
-    "Second Order Linear Homogeneous Intuition.md",
     "Semester 2/Web Design + Databases/Pasted image 20260225091548.png",
     "Excalidraw",
     "Semester 2/Discrete Mathematics/Past Papers",
