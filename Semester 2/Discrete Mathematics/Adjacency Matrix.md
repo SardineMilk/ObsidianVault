@@ -49,3 +49,14 @@ $A * A =$
 1 1 1 0
 1 1 0 3
 *The diagonal is the connectivity of each node - to each neighbour and back*
+
+Watch out for this:
+$A^2 * A^2 = A^4$
+$A^2 * A^1 = A^3$
+
+Matrix multiplication is **associative**
+$A(BC) = (AB)C$
+so
+$A^2 * A^1 = A^1 * A^2$
+since
+$A^2 * A^1 = A^1 * A^2 = (A*A) * A = A * (A*A)$

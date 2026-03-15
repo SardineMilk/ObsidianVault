@@ -17,6 +17,14 @@ This is the **travelling salesman problem**
 
 #### Nearest Neightboor Algorithm
 - Select a vertex as starting vertex
-- Travel along an edge with the smallest weight to a vertex you have not been before
+- Travel along the shortest edge connecting current vertex to an unvisited vertex
 - Repeat until you have visited all vertices
+
 This produces very non optimal solutions
+
+#### Lower Bound Algorithm
+Obtain a lower bound on the weight of any Hamilton path:
+1. Choose any vertex $v$. Delete it and all incident edges
+2. Find a minimum weight spanning tree using [[Spanning Trees#Kruskal's Algorithm|Kruskal's]] or [[Spanning Trees#Prim's Algorithm|Prim's]] algorithm
+3. Find the two edges incident with $v$ that have the smallest weight
+4. The lower bound is the sum of the minimum weight spanning tree and the two edges
