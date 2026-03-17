@@ -22,62 +22,6 @@
             }
           },
           {
-            "id": "a6842b5d44964945",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Semester 2/Discrete Mathematics/Hamilton Paths+Circuits.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Hamilton Paths+Circuits"
-            }
-          },
-          {
-            "id": "8800413e4cb1ba64",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Semester 2/Discrete Mathematics/Euler Paths+Circuits.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Euler Paths+Circuits"
-            }
-          },
-          {
-            "id": "2a3328d69a37582f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Semester 2/Discrete Mathematics/Past Papers/Sample Test 2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Sample Test 2"
-            }
-          },
-          {
-            "id": "5976580bc3053e94",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Semester 2/Discrete Mathematics/Spanning Trees.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Spanning Trees"
-            }
-          },
-          {
             "id": "aac0803cf6e934b9",
             "type": "leaf",
             "state": {
@@ -89,62 +33,6 @@
               },
               "icon": "lucide-file",
               "title": "Adjacency Matrix"
-            }
-          },
-          {
-            "id": "e6e1f5a37b49c12d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sample Test 2.1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Sample Test 2.1"
-            }
-          },
-          {
-            "id": "9edd7a571e3649dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Semester 2/Discrete Mathematics/Tutorials/Tutorial 7.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tutorial 7"
-            }
-          },
-          {
-            "id": "1c37d221aaf67828",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sample Test 2 Attempt 2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Sample Test 2 Attempt 2"
-            }
-          },
-          {
-            "id": "f6992dcd6f308e52",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Semester 2/Web Design + Databases/Database Constraints.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Database Constraints"
             }
           },
           {
@@ -162,21 +50,105 @@
             }
           },
           {
-            "id": "b6b2f052b7a06974",
+            "id": "70564647c7af33f3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 2/Discrete Mathematics/Connectivity.md",
+                "file": "Semester 2/Discrete Mathematics/Dijkstra's Algorithm.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Connectivity"
+              "title": "Dijkstra's Algorithm"
+            }
+          },
+          {
+            "id": "5dcf6b2c9cce6e0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Semester 2/Discrete Mathematics/Trees.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Trees"
+            }
+          },
+          {
+            "id": "5976580bc3053e94",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Semester 2/Discrete Mathematics/Spanning Trees.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Spanning Trees"
+            }
+          },
+          {
+            "id": "8800413e4cb1ba64",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Semester 2/Discrete Mathematics/Euler Paths+Circuits.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Euler Paths+Circuits"
+            }
+          },
+          {
+            "id": "a6842b5d44964945",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Semester 2/Discrete Mathematics/Past Papers/Sample Test 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sample Test 2"
+            }
+          },
+          {
+            "id": "e6e1f5a37b49c12d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sample Test 2.1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sample Test 2.1"
+            }
+          },
+          {
+            "id": "868f3f4567db4fb0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gaussian Elimination.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Gaussian Elimination"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -322,20 +294,27 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "5976580bc3053e94",
+  "active": "868f3f4567db4fb0",
   "lastOpenFiles": [
-    "Semester 2/Discrete Mathematics/Euler Paths+Circuits.md",
+    "Row Echelon Form.md",
+    "Gaussian Elimination.md",
+    "Sample Test 2.1.md",
+    "Semester 2/Discrete Mathematics/Past Papers/Sample Test 2.md",
+    "Q9.md",
     "Semester 2/Discrete Mathematics/Hamilton Paths+Circuits.md",
+    "Algorithms.md",
+    "Semester 2/Discrete Mathematics/Euler Paths+Circuits.md",
     "Semester 2/Discrete Mathematics/Discrete Mathematics.md",
     "Semester 2/Discrete Mathematics/Spanning Trees.md",
-    "Semester 2/Discrete Mathematics/Past Papers/Sample Test 2.md",
     "Semester 2/Discrete Mathematics/Trees.md",
-    "Semester 2/Discrete Mathematics/Graphs.md",
-    "Sample Test 2 Attempt 2.md",
-    "Sample Test 2.1.md",
-    "Semester 2/Discrete Mathematics/Tutorials/Tutorial 7.md",
-    "Semester 2/Discrete Mathematics/Drawings/simple-weighted-graph-2.png",
+    "Semester 2/Discrete Mathematics/Dijkstra's Algorithm.md",
     "Semester 2/Discrete Mathematics/Adjacency Matrix.md",
+    "Semester 2/Discrete Mathematics/Directed Graphs.md",
+    "Semester 2/Web Design + Databases/Database Constraints.md",
+    "Sample Test 2 Attempt 2.md",
+    "Semester 2/Discrete Mathematics/Tutorials/Tutorial 7.md",
+    "Semester 2/Discrete Mathematics/Graphs.md",
+    "Semester 2/Discrete Mathematics/Drawings/simple-weighted-graph-2.png",
     "Semester 2/Discrete Mathematics/Tutorials/Tutorial 8.md",
     "Semester 2/Discrete Mathematics/Drawings/tutoral8-2.png",
     "Semester 2/Discrete Mathematics/Drawings/tutorial8-1.png",
@@ -345,21 +324,14 @@
     "Pasted image 20260313094659.png",
     "Pasted image 20260313094645.png",
     "Pasted image 20260313094613.png",
-    "Semester 2/Web Design + Databases/Database Constraints.md",
     "Semester 2/Discrete Mathematics/Drawings/spanning-trees.png",
     "Semester 2/Discrete Mathematics/Drawings/dijkstra-code.png",
     "Semester 2/Discrete Mathematics/Drawings/bad-lecture-notes.png",
     "Semester 2/Discrete Mathematics/Tutorials/Tutorial 3.md",
-    "Semester 2/Discrete Mathematics/Dijkstra's Algorithm.md",
     "Semester 2/Discrete Mathematics/Tutorial 2.md",
     "Semester 2/Discrete Mathematics/Relations.md",
     "Semester 2/Discrete Mathematics/Tutorials/Tutorial 1.md",
     "Semester 2/Discrete Mathematics/Weighted Graphs.md",
-    "Semester 2/Web Design + Databases/Relational Data Model.md",
-    "Semester 2/Web Design + Databases/Conceptual vs Logical Database Design.md",
-    "Semester 2/Computer Systems/Pipelining.md",
-    "Semester 2/Computer Systems/Input-Output Architecture.md",
-    "Semester 2/Discrete Mathematics/Recurrence Relations.md",
     "Semester 2/Discrete Mathematics/Past Papers",
     "Semester 2/Discrete Mathematics/Drawings",
     "Semester 2/Excalidraw",

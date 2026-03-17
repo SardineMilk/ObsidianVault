@@ -106,8 +106,10 @@ a -> b -> c -> z of length 11
 
 9.
 *7/7*
+*Formulae for trees*
 V = I + L
 E = V - 1
+*Formula for a full m-ary tree: E = m x I*
 E = 5 x I
 L = 81
 
@@ -124,3 +126,4 @@ V = I + L
 V = 20 + 81
 V = 101
 101 people, including the first, received the letter
+

@@ -10,7 +10,6 @@ A spanning tree uses the least possible number of edges to connect a graph
 "visits all vertices adjacent to the current one before penetrating deep into a graph"
 
 If a vertex is distance $i$ from vertex 1, it is in level $i$ of the spanning graph
-
 ##### Algorithm
 Start at vertex 1
 Iterate until all vertices added:
@@ -22,7 +21,6 @@ Iterate until all vertices added:
 
 #### Depth First
 "penetrates as deeply as possible into a graph before fanning out to other vertices"
-
 ##### Algorithm
 Start with vertex 1
 Iterate until all vertices added
