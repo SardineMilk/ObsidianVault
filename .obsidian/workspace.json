@@ -8,35 +8,161 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a62a12296ade8144",
+            "id": "057a45817ab3f241",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Shell Pipelines.md",
+                "file": "Semester 2/Discrete Mathematics/Discrete Mathematics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Shell Pipelines"
+              "title": "Discrete Mathematics"
             }
           },
           {
-            "id": "5dd35eb59fae8ef5",
+            "id": "4a09c7e84f8ada8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Shell Scripting.md",
+                "file": "Semester 2/Discrete Mathematics/Row Echelon Form.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Shell Scripting"
+              "title": "Row Echelon Form"
+            }
+          },
+          {
+            "id": "d4f5183687cdeac2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Semester 2/Discrete Mathematics/Gaussian Elimination.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Gaussian Elimination"
+            }
+          },
+          {
+            "id": "aac0803cf6e934b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Semester 2/Discrete Mathematics/Adjacency Matrix.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Adjacency Matrix"
+            }
+          },
+          {
+            "id": "9d9531f47e5b1244",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Semester 2/Discrete Mathematics/Directed Graphs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Directed Graphs"
+            }
+          },
+          {
+            "id": "70564647c7af33f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Semester 2/Discrete Mathematics/Dijkstra's Algorithm.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dijkstra's Algorithm"
+            }
+          },
+          {
+            "id": "5dcf6b2c9cce6e0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Semester 2/Discrete Mathematics/Trees.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Trees"
+            }
+          },
+          {
+            "id": "5976580bc3053e94",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Semester 2/Discrete Mathematics/Spanning Trees.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Spanning Trees"
+            }
+          },
+          {
+            "id": "8800413e4cb1ba64",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Semester 2/Discrete Mathematics/Euler Paths+Circuits.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Euler Paths+Circuits"
+            }
+          },
+          {
+            "id": "a6842b5d44964945",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Semester 2/Discrete Mathematics/Past Papers/Sample Test 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sample Test 2"
+            }
+          },
+          {
+            "id": "e6e1f5a37b49c12d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sample Test 2.1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sample Test 2.1"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -93,8 +219,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227.5078125,
-    "collapsed": true
+    "width": 227.5078125
   },
   "right": {
     "id": "6fc808674965d1be",
@@ -183,27 +308,29 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "5dd35eb59fae8ef5",
+  "active": "d4f5183687cdeac2",
   "lastOpenFiles": [
-    "Shell Pipelines.md",
-    "Shell Scripting.md",
-    "Linux.md",
-    "PHP.md",
-    "Semester 2/Web Design + Databases/Aggregate Functions.md",
     "Semester 2/Discrete Mathematics/Row Echelon Form.md",
+    "Semester 2/Discrete Mathematics/Discrete Mathematics.md",
+    "Semester 2/Discrete Mathematics/Gaussian Elimination.md",
     "Sample Test 2.1.md",
+    "Gaussian Elimination.md",
+    "Semester 2/Computer Systems/Shell Scripting.md",
+    "Semester 2/Computer Systems/Shell Pipelines.md",
+    "Semester 2/Web Design + Databases/Aggregate Functions.md",
+    "Semester 2/Web Design + Databases/PHP.md",
+    "Semester 2/Computer Systems/Linux.md",
+    "Row Echelon Form.md",
     "Semester 2/Discrete Mathematics/Past Papers/Sample Test 2.md",
+    "Q9.md",
+    "Semester 2/Discrete Mathematics/Hamilton Paths+Circuits.md",
+    "Algorithms.md",
     "Semester 2/Discrete Mathematics/Euler Paths+Circuits.md",
     "Semester 2/Discrete Mathematics/Spanning Trees.md",
     "Semester 2/Discrete Mathematics/Trees.md",
     "Semester 2/Discrete Mathematics/Dijkstra's Algorithm.md",
-    "Semester 2/Discrete Mathematics/Directed Graphs.md",
     "Semester 2/Discrete Mathematics/Adjacency Matrix.md",
-    "Semester 2/Discrete Mathematics/Discrete Mathematics.md",
-    "Semester 2/Discrete Mathematics/Gaussian Elimination.md",
-    "Algorithms.md",
-    "Q9.md",
-    "Semester 2/Discrete Mathematics/Hamilton Paths+Circuits.md",
+    "Semester 2/Discrete Mathematics/Directed Graphs.md",
     "Semester 2/Web Design + Databases/Database Constraints.md",
     "Sample Test 2 Attempt 2.md",
     "Semester 2/Discrete Mathematics/Tutorials/Tutorial 7.md",
@@ -212,8 +339,6 @@
     "Semester 2/Discrete Mathematics/Tutorials/Tutorial 8.md",
     "Semester 2/Discrete Mathematics/Drawings/tutoral8-2.png",
     "Semester 2/Discrete Mathematics/Drawings/tutorial8-1.png",
-    "Semester 2/Computer Systems/Memory Systems.md",
-    "Semester 2/Discrete Mathematics/Connectivity.md",
     "Pasted image 20260313094716.png",
     "Pasted image 20260313094659.png",
     "Pasted image 20260313094645.png",
