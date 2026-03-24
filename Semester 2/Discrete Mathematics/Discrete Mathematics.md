@@ -92,6 +92,7 @@ No Content - Consolidation Week
 [[Vector Spaces]]
 
 ##### 5.3
+[[Determinant]]
 [[Eigenvectors + Eigenvalues]]
 
 ### Exercises
