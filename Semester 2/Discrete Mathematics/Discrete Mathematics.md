@@ -20,10 +20,10 @@ No Content - Consolidation Week
 4.4, 4.5, 4.6
 #### 9
 4.7, 4.8, 4.9, 4.10
-
 #### 10
 5.1
-
+#### 11
+5.2, 5.3
 ### Sections
 #### Set Theory and Combinatorics
 ##### 1.1
@@ -88,6 +88,11 @@ No Content - Consolidation Week
 [[Row Echelon Form]]
 [[Gaussian Elimination]]
 
+##### 5.2
+[[Vector Spaces]]
+
+##### 5.3
+[[Eigenvectors + Eigenvalues]]
 
 ### Exercises
 [[Exercises]]
