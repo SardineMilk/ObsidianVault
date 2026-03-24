@@ -28,8 +28,9 @@ A=\begin{bmatrix}
 2 & 5 & -4 & |13
 \end{bmatrix}
 $$
-*Multiply row $A_1$ until first entry is 1*
-*Add $a_1$ to lower rows until the first column under $a_1$ is all zeros - called a downsweep*
+*1: Move any all-zero rows to the bottom*
+*2: Multiply row $A_1$ until first entry is 1*
+*3: Add $a_1$ to lower rows until the first column under $a_1$ is all zeros - called a downsweep*
 $A_2 \rightarrow A_2 - A_1$
 $$
 A=\begin{bmatrix}
@@ -48,3 +49,31 @@ A=\begin{bmatrix}
 0 & 1 & 2 & |5
 \end{bmatrix}
 $$
+*Repeat 2/3 for second row, ignoring first row*
+$A_3 \rightarrow A_3 - A_2$
+$$
+A=\begin{bmatrix}
+1 & 2 & -3 & |4 \\
+0 & 1 & 4  & |7 \\
+0 & 0 & -2 & |-2
+\end{bmatrix}
+$$
+ *Repeat 2/3 for third row, ignoring second row*
+ $A_3 \rightarrow -1/2 A_3$
+
+$$
+A=\begin{bmatrix}
+1 & 2 & -3 & |4 \\
+0 & 1 & 4  & |7 \\
+0 & 0 & 1 & |1
+\end{bmatrix}
+$$
+*Solve equations*
+$x + 2y - 3z = 4$
+$y + 4z = 7$
+$z = 1$
+
+$y = 7 - 4 = 3$
+$x = 4 - 2(3) + 3(1) = 1$
+
+$(1, 3, 1)$
