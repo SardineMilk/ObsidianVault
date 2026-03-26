@@ -51,3 +51,29 @@ D =\begin{bmatrix}
 \end{bmatrix}
 $$
 $det(D) = 3*(-4) - 7*1 = -19$
+
+### 3x3 matrix
+Memorise this formula
+
+$$
+det(\begin{bmatrix}
+a & b & c \\
+d & e & f \\
+g & h & i \
+\end{bmatrix}) := 
+a * det(\begin{bmatrix}
+e & f \\
+h & i
+\end{bmatrix}) - 
+
+b * det(\begin{bmatrix}
+d & f \\
+g & i
+\end{bmatrix}) +
+
+c * det(\begin{bmatrix}
+d & e \\
+g & h
+\end{bmatrix}) 
+$$
+$a(ei-fh) - b(di-fg) + c(eh-eg)$

@@ -65,15 +65,96 @@ $$
 1 & 0-\lambda
 \end{bmatrix}v
 $$
-[[Determinant]]
+Solve for the roots of the [[Determinant|determinant]]
+$det(A) = ad - bc$
+$-\lambda(1-\lambda) - 2*1 = 0$
+$\lambda^2 - \lambda - 2 = 0$
+$(\lambda - 2)(\lambda + 1) = 0$
+$\lambda = 2, -1$
+These are the eigenvalues
 
-[[Gaussian Elimination|Downsweep]] the first column
+Substitute into the system to find the eigenvectors
+
+$$ (A - 2I)v = 0 $$
+
+
 $$
-A - \lambda I  =\begin{bmatrix}
-1-\lambda & 2 \\
-0 & -\lambda - \frac{2}{1-\lambda}
+\begin{bmatrix}
+1-2 & 2 \\
+1 & 0-2
+\end{bmatrix}
+\begin{bmatrix}
+x \\
+y \\
+\end{bmatrix}
+=
+\begin{bmatrix}
+0 \\
+0 \\
 \end{bmatrix}
 $$
-Solve for bottom-right equal to zero
-$-\lambda - \frac{2}{1-\lambda} = \lambda^2 - \lambda - 2 = (\lambda - 2)(\lambda + 1) = 0$
-$\lambda =  2, -1$
+$$
+\begin{bmatrix}
+-1 & 2 \\
+1 & -2
+\end{bmatrix}
+\begin{bmatrix}
+x \\
+y \\
+\end{bmatrix}
+=
+\begin{bmatrix}
+0 \\
+0 \\
+\end{bmatrix}
+$$
+$-x + 2y = 0$
+$x - 2y = 0$
+$x = 2y$
+$$
+\begin{bmatrix}
+2 \\
+1 \\
+\end{bmatrix}
+$$ 
+
+
+$$
+\begin{bmatrix}
+2 & 2 \\
+1 & 1
+\end{bmatrix}
+\begin{bmatrix}
+x \\
+y \\
+\end{bmatrix}
+=
+\begin{bmatrix}
+0 \\
+0 \\
+\end{bmatrix}
+$$
+$2x + 2y = 0$
+$x + y = 0$
+$x = -y$
+$$
+\begin{bmatrix}
+-1 \\
+1 \\
+\end{bmatrix}
+$$
+Eigenvalues/vectors:
+$$
+2, \begin{bmatrix}
+2 \\
+1 \\
+\end{bmatrix}
+$$
+$$
+-1, \begin{bmatrix}
+-1 \\
+1 \\
+\end{bmatrix}
+$$
+(or any non-zero multiples of those vectors)
+
