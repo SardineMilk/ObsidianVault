@@ -8,8 +8,35 @@ B =\begin{bmatrix}
 2 & 7 &-3 & 6 & 13
 \end{bmatrix}
 $$
+$R_2 \rightarrow R_2 - R_1$
+$$
+B =\begin{bmatrix}
+1 & 3 & -2 & 5 & 4 \\
+0 & 1 & 3 & -2 & 1 \\
+1 & 4 & 2 & 4 & 3 \\
+2 & 7 &-3 & 6 & 13
+\end{bmatrix}
+$$
 
+$R_3 \rightarrow R_3 - R_1$
+$$
+B =\begin{bmatrix}
+1 & 3 & -2 & 5 & 4 \\
+0 & 1 & 3 & -2 & 1 \\
+0 & 1 & 4 & -1 & -1 \\
+2 & 7 &-3 & 6 & 13
+\end{bmatrix}
+$$
 
+$R_4 \rightarrow R_4 - 2R_1$
+$$
+B =\begin{bmatrix}
+1 & 3 & -2 & 5 & 4 \\
+0 & 1 & 3 & -2 & 1 \\
+0 & 1 & 4 & -1 & -1 \\
+0 & 1 & 1 & -4 & 5
+\end{bmatrix}
+$$
 
 2.
 Compute the determinants of the following matrices
